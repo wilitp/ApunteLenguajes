@@ -5639,10 +5639,7 @@ Entonces las funciones:
 \begin{array}{rll}
 Part & \rightarrow & ReEq\\
 \mathcal{P} & \rightarrow & R_{\mathcal{P}}
-\end{array}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \\begin{array}{rll}
-ReEq & \rightarrow & Part\\
-R & \rightarrow & A/R
-\end{array}
+\end{array}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ begin{array}{rll}ReEq\rightarrow PartR\rightarrow A/R{array}
 \]
 
 \end_inset
@@ -7298,10 +7295,7 @@ Sea
 \begin{array}{rll}
 C_{k}^{n,m}:\omega^{n}\times\Sigma^{\ast m} & \rightarrow & \omega\\
 (\vec{x},\vec{\alpha}) & \rightarrow & k
-\end{array}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \\begin{array}{rll}
-C_{\alpha}^{n,m}:\omega^{n}\times\Sigma^{\ast m} & \rightarrow & \Sigma^{\ast}\\
-(\vec{x},\vec{\alpha}) & \rightarrow & \alpha
-\end{array}
+\end{array}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ begin{array}{rll}C_{\alpha}^{n,m}:\omega^{n}\times\Sigma^{\ast m}\rightarrow\Sigma^{\ast}(\vec{x},\vec{\alpha})\rightarrow\alpha{array}
 \]
 
 \end_inset
@@ -7669,13 +7663,10 @@ es una funcion
 1\text{ si }x=y\\
 0\text{ si }x\neq y
 \end{array}\right.
-\end{array}\ \ \ \ \ \ \ \ \ \ \\begin{array}{rll}
-\{1,2,3,4,5\}\times\Sigma^{\ast} & \rightarrow & \omega\\
-(x,\alpha) & \rightarrow & \left\{ \begin{array}{l}
+\end{array}\ \ \ \ \ \ \ \ \ \ begin{array}{rll}\{1,2,3,4,5\}\times\Sigma^{\ast}\rightarrow\omega(x,\alpha)\rightarrow\left\{ \begin{array}{l}
 1\text{ si }x=\left\vert \alpha\right\vert \\
 0\text{ si }x\neq\left\vert \alpha\right\vert 
-\end{array}\right.
-\end{array}
+\end{array}\right.{array}
 \]
 
 \end_inset
@@ -13578,10 +13569,7 @@ begin{theorem}
 \begin{array}{lll}
 \mathbf{N} & \rightarrow & \omega^{\left[\mathbf{N}\right]}\\
 x & \rightarrow & (x)=((x)_{1},(x)_{2},...)
-\end{array}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \\begin{array}{rll}
-\omega^{\left[\mathbf{N}\right]} & \rightarrow & \mathbf{N}\\
-(s_{1},s_{2},...) & \rightarrow & \left\langle s_{1},s_{2},...\right\rangle 
-\end{array}
+\end{array}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ begin{array}{rll}\omega^{\left[\mathbf{N}\right]}\rightarrow\mathbf{N}(s_{1},s_{2},...)\rightarrow\left\langle s_{1},s_{2},...\right\rangle {array}
 \]
 
 \end_inset
@@ -34073,10 +34061,7 @@ Ya definimos para el caso de un alfabeto
 \begin{array}{rll}
 \#^{\emptyset}:\{0\} & \rightarrow & \{\varepsilon\}\\
 0 & \rightarrow & \varepsilon
-\end{array}\ \ \ \ \ \ \ \ \ \ \ \ \ \\begin{array}{rll}
-\ast^{\emptyset}:\{\varepsilon\} & \rightarrow & \{0\}\\
-\varepsilon & \rightarrow & 0
-\end{array}
+\end{array}\ \ \ \ \ \ \ \ \ \ \ \ \ begin{array}{rll}\ast^{\emptyset}:\{\varepsilon\}\rightarrow\{0\}\varepsilon\rightarrow0{array}
 \]
 
 \end_inset
@@ -51108,7 +51093,7 @@ Notese que
 \begin{array}{lcr}
 \alpha B\beta_{1}B\beta_{2}B...B\beta_{j}B\gamma & \overset{\ast}{\vdash} & \alpha B\beta_{1}B\beta_{2}B...B\beta_{j}B\gamma\\
 \ \ \uparrow &  & \uparrow\ \ \\
-\ \ q_{0} &  & q_{f}\ \
+\ \ q_{0} &  & q_{f}\ \ 
 \end{array}
 \]
 
@@ -51155,7 +51140,7 @@ Analogamente
 \begin{array}{lcr}
 \alpha B\beta_{j}B...B\beta_{2}B\beta_{1}B\gamma & \overset{\ast}{\vdash} & \alpha B\beta_{j}B...B\beta_{2}B\beta_{1}B\gamma\\
 \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \uparrow &  & \uparrow\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \\
-\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ q_{0} &  & q_{f}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \
+\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ q_{0} &  & q_{f}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 
 \end{array}
 \]
 
@@ -51192,7 +51177,7 @@ Para
 \begin{array}{ccc}
 \alpha B\gamma & \overset{\ast}{\vdash} & \alpha BB\gamma\\
 \uparrow &  & \uparrow\ \ \\
-q_{0} &  & q_{f}\ \
+q_{0} &  & q_{f}\ \ 
 \end{array}
 \]
 
@@ -62289,10 +62274,7 @@ operacion binaria sobre
 \begin{array}{rcl}
 \mathsf{s}:P^{2} & \rightarrow & P\\
 (a,b) & \rightarrow & \sup(\{a,b\})
-\end{array}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \\begin{array}{rcl}
-\mathsf{i}:P^{2} & \rightarrow & P\\
-(a,b) & \rightarrow & \inf(\{a,b\})
-\end{array}
+\end{array}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ begin{array}{rcl}\mathsf{i}:P^{2}\rightarrow P(a,b)\rightarrow\inf(\{a,b\}){array}
 \]
 
 \end_inset
@@ -64265,10 +64247,7 @@ Podemos abstraernos y pensar que s e i son dos operaciones cualesquiera
 \begin{array}{rcl}
 \mathsf{s}:\mathbf{R}^{2} & \rightarrow & \mathbf{R}\\
 (a,b) & \rightarrow & a+b
-\end{array}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \\begin{array}{rcl}
-\mathsf{i}:\mathbf{R}^{2} & \rightarrow & \mathbf{R}\\
-(a,b) & \rightarrow & a.b
-\end{array}
+\end{array}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ begin{array}{rcl}\mathsf{i}:\mathbf{R}^{2}\rightarrow\mathbf{R}(a,b)\rightarrow a.b{array}
 \]
 
 \end_inset
@@ -64291,13 +64270,7 @@ no se cumplen.
 (1,2) & \rightarrow & 2\\
 (2,1) & \rightarrow & 1\\
 (2,2) & \rightarrow & 2
-\end{array}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \\begin{array}{rcl}
-\mathsf{i}:\{1,2\}^{2} & \rightarrow & \{1,2\}\\
-(1,1) & \rightarrow & 1\\
-(1,2) & \rightarrow & 1\\
-(2,1) & \rightarrow & 1\\
-(2,2) & \rightarrow & 1
-\end{array}
+\end{array}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ begin{array}{rcl}\mathsf{i}:\{1,2\}^{2}\rightarrow\{1,2\}(1,1)\rightarrow1(1,2)\rightarrow1(2,1)\rightarrow1(2,2)\rightarrow1{array}
 \]
 
 \end_inset
@@ -64317,10 +64290,7 @@ no se cumplen.
 \begin{array}{rcl}
 \mathsf{s}:\mathbf{N}^{2} & \rightarrow & \mathbf{N}\\
 (a,b) & \rightarrow & \max\{a,b\}
-\end{array}\ \ \ \ \ \\begin{array}{rcl}
-\mathsf{i}:\mathbf{N}^{2} & \rightarrow & \mathbf{N}\\
-(a,b) & \rightarrow & \text{maximo comun divisor de }a\text{ y }b
-\end{array}
+\end{array}\ \ \ \ \ begin{array}{rcl}\mathsf{i}:\mathbf{N}^{2}\rightarrow\mathbf{N}(a,b)\rightarrow\text{maximo comun divisor de }a\text{ y }b{array}
 \]
 
 \end_inset
@@ -65044,10 +65014,7 @@ entonces ciertas veces usaremos
 \begin{array}{rcl}
 L^{2} & \rightarrow & L\\
 (A,B) & \rightarrow & A\cup B
-\end{array}\ \ \ \ \ \ \ \ \ \ \ \ \ \\begin{array}{rcl}
-L^{2} & \rightarrow & L\\
-(A,B) & \rightarrow & A\cap B
-\end{array}
+\end{array}\ \ \ \ \ \ \ \ \ \ \ \ \ begin{array}{rcl}L^{2}\rightarrow L(A,B)\rightarrow A\cap B{array}
 \]
 
 \end_inset
@@ -65089,10 +65056,7 @@ Si
 \begin{array}{rcl}
 L^{2} & \rightarrow & L\\
 (a,b) & \rightarrow & \max(a,b)
-\end{array}\ \ \ \ \ \ \ \ \ \ \ \ \ \\begin{array}{rcl}
-L^{2} & \rightarrow & L\\
-(a,b) & \rightarrow & \min(a,b)
-\end{array}
+\end{array}\ \ \ \ \ \ \ \ \ \ \ \ \ begin{array}{rcl}L^{2}\rightarrow L(a,b)\rightarrow\min(a,b){array}
 \]
 
 \end_inset
@@ -65162,10 +65126,7 @@ entonces ciertas veces usaremos
 \begin{array}{rcl}
 L^{2} & \rightarrow & L\\
 (a,b) & \rightarrow & mcm(a,b)
-\end{array}\ \ \ \ \ \ \ \ \ \ \ \ \ \\begin{array}{rcl}
-L^{2} & \rightarrow & L\\
-(a,b) & \rightarrow & mcd(a,b)
-\end{array}
+\end{array}\ \ \ \ \ \ \ \ \ \ \ \ \ begin{array}{rcl}L^{2}\rightarrow L(a,b)\rightarrow mcd(a,b){array}
 \]
 
 \end_inset
@@ -67329,10 +67290,7 @@ Por supuesto, en virtud de lo desarrollado en la subseccion anterior se
 \begin{array}{rcl}
 \mathsf{s}:L^{2} & \rightarrow & L\\
 (a,b) & \rightarrow & \sup(\{a,b\})
-\end{array}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \\begin{array}{rcl}
-\mathsf{i}:L^{2} & \rightarrow & L\\
-(a,b) & \rightarrow & \inf(\{a,b\})
-\end{array}
+\end{array}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ begin{array}{rcl}\mathsf{i}:L^{2}\rightarrow L(a,b)\rightarrow\inf(\{a,b\}){array}
 \]
 
 \end_inset
@@ -68524,10 +68482,7 @@ para cada
 \begin{array}{rcl}
 \mathsf{s}:L^{2} & \rightarrow & L\\
 (a,b) & \rightarrow & \sup(\{a,b\})
-\end{array}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \\begin{array}{rcl}
-\mathsf{i}:L^{2} & \rightarrow & L\\
-(a,b) & \rightarrow & \inf(\{a,b\})
-\end{array}
+\end{array}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ begin{array}{rcl}\mathsf{i}:L^{2}\rightarrow L(a,b)\rightarrow\inf(\{a,b\}){array}
 \]
 
 \end_inset
@@ -77799,7 +77754,7 @@ status collapsed
  matematico y tambien a la hora de hacer pruebas pusimos mucha atencion
  en hacerlas 
 \begin_inset ERT
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -77834,7 +77789,7 @@ matematica aplicada
 
 \begin_layout Enumerate
 \begin_inset Argument item:1
-status collapsed
+status open
 
 \begin_layout Plain Layout
 -
@@ -77992,7 +77947,7 @@ Programa de logica sobre reticulados cuaterna
 
 \begin_layout Enumerate
 \begin_inset Argument item:1
-status collapsed
+status open
 
 \begin_layout Plain Layout
 -
@@ -80471,23 +80426,11 @@ Esta libertad en la definicion de tipo y tambien en la definicion de estructura
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{lemma}
+\begin_layout Lemma
+Se tiene que:
 \end_layout
 
-\end_inset
-
- Se tiene que:
-\end_layout
-
-\begin_layout Enumerate
+\begin_layout Lemma
 \begin_inset Argument item:1
 status collapsed
 
@@ -80516,7 +80459,7 @@ Dados
 
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Lemma
 \begin_inset Argument item:1
 status collapsed
 
@@ -80541,19 +80484,7 @@ si
  
 \end_layout
 
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{lemma}
-\end_layout
-
-\end_inset
-
+\begin_layout Lemma
 
 \end_layout
 
@@ -95122,10 +95053,7 @@ Los mapeos
 \begin{array}{lll}
 \pi_{1}:A\times B & \rightarrow & A\\
 \;\;\;\;\;(a,b) & \rightarrow & a
-\end{array}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \\begin{array}{lll}
-\pi_{2}:A\times B & \rightarrow & B\\
-\;\;\;\;\;(a,b) & \rightarrow & b
-\end{array}
+\end{array}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ begin{array}{lll}\pi_{2}:A\times B\rightarrow B\;\;\;\;\;(a,b)\rightarrow b{array}
 \]
 
 \end_inset
@@ -115828,7 +115756,7 @@ El predicado
 R(\alpha,\beta,\gamma,\zeta)=\left\{ \begin{array}{cccl}
 \begin{array}{c}
 1\\
-\;\
+\;\ 
 \end{array} &  &  & \begin{array}{cl}
 \text{si }\beta= & \text{resultado de reemplazar una}\\
  & \text{ocurrencia de }\gamma\text{ en }\alpha\text{ por }\zeta
@@ -116865,10 +116793,7 @@ begin{lemma}
 \begin{array}{ccc}
 S^{\tau_{A}^{e}+} & \rightarrow & \omega\\
 \mathbf{\varphi} & \rightarrow & n(\mathbf{\varphi})
-\end{array}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \\begin{array}{ccc}
-\omega\times S^{\tau_{A}^{e}+} & \rightarrow & S^{\tau_{A}^{e}}\cup\{\varepsilon\}\\
-(i,\mathbf{\varphi}) & \rightarrow & \mathbf{\varphi}_{i}
-\end{array}
+\end{array}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ begin{array}{ccc}\omega\times S^{\tau_{A}^{e}+}\rightarrow S^{\tau_{A}^{e}}\cup\{\varepsilon\}(i,\mathbf{\varphi})\rightarrow\mathbf{\varphi}_{i}{array}
 \]
 
 \end_inset
@@ -117076,10 +117001,7 @@ begin{lemma}
 \begin{array}{ccc}
 Just^{+} & \rightarrow & \omega\\
 \mathbf{J} & \rightarrow & n(\mathbf{J})
-\end{array}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \\begin{array}{ccc}
-\omega\times Just^{+} & \rightarrow & Just\cup\{\varepsilon\}\\
-(i,\mathbf{J}) & \rightarrow & \mathbf{J}_{i}
-\end{array}
+\end{array}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ begin{array}{ccc}\omega\times Just^{+}\rightarrow Just\cup\{\varepsilon\}(i,\mathbf{J})\rightarrow\mathbf{J}_{i}{array}
 \]
 
 \end_inset
