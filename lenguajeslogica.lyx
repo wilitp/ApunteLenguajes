@@ -4,7 +4,7 @@
 \begin_header
 \save_transient_properties true
 \origin unavailable
-\textclass article
+\textclass amsbook
 \begin_preamble
 \setcounter{MaxMatrixCols}{30}%
 \usepackage{amsfonts}\usepackage{graphicx}
@@ -28,6 +28,11 @@
 \newtheorem{theorem}{Theorem}\newtheorem{acknowledgement}[theorem]{Acknowledgement}\newtheorem{algorithm}[theorem]{Algorithm}\newtheorem{axiom}[theorem]{Axiom}\newtheorem{case}[theorem]{Case}\newtheorem{claim}[theorem]{Claim}\newtheorem{conclusion}[theorem]{Conclusion}\newtheorem{condition}[theorem]{Condition}\newtheorem{conjecture}[theorem]{Conjecture}\newtheorem{corollary}[theorem]{Corollary}\newtheorem{criterion}[theorem]{Criterion}\newtheorem{definition}[theorem]{Definition}\newtheorem{example}[theorem]{Example}\newtheorem{exercise}[theorem]{Exercise}\newtheorem{lemma}[theorem]{Lemma}\newtheorem{notation}[theorem]{Notation}\newtheorem{problem}[theorem]{Problem}\newtheorem{proposition}[theorem]{Proposition}\newtheorem{remark}[theorem]{Remark}\newtheorem{solution}[theorem]{Solution}\newtheorem{summary}[theorem]{Summary}\newenvironment{proof}[1][Proof]{\noindent\textbf{#1.} }{\ \rule{0.5em}{0.5em}}
 \end_preamble
 \use_default_options false
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
 \maintain_unincluded_children false
 \language english
 \language_package none
@@ -112,7 +117,7 @@ LatexCommand tableofcontents
 
 \end_layout
 
-\begin_layout Section
+\begin_layout Chapter
 Notacion y conceptos basicos
 \end_layout
 
@@ -315,7 +320,7 @@ Si bien no hay una definicion natural en matematica de cuanto vale
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Conjuntos
 \end_layout
 
@@ -471,7 +476,7 @@ Dejamos al lector la tarea de entender en forma precisa que conjunto se
  esta denotando en cada caso.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Producto carteciano
 \end_layout
 
@@ -621,7 +626,7 @@ Si
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Alfabetos
 \end_layout
 
@@ -898,7 +903,7 @@ resiproca
 .
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Ocurrencias
 \end_layout
 
@@ -1082,7 +1087,7 @@ No definiremos en forma matematica precisa el concepto de ocurrencia pero
 
 \end_layout
 
-\begin_layout Paragraph*
+\begin_layout Subsubsection*
 Reemplazos de ocurrencias
 \end_layout
 
@@ -1418,7 +1423,7 @@ cada ocurrencia de
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Matematica orientada a objetos
 \end_layout
 
@@ -1576,7 +1581,7 @@ Ti(f) & =\mathrm{CONJUNTO}\text{, si }f\text{ es una funcion}
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 El concepto de funcion
 \end_layout
 
@@ -1867,7 +1872,7 @@ estaremos diciendo que
 
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsection*
 Igualdad de funciones
 \end_layout
 
@@ -1966,7 +1971,7 @@ end{lemma}
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Funcion identidad
 \end_layout
 
@@ -2006,7 +2011,7 @@ identidad sobre
 .
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Composicion de funciones
 \end_layout
 
@@ -2071,7 +2076,7 @@ Notar que
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Funciones inyectivas, suryectivas y biyectivas
 \end_layout
 
@@ -2264,7 +2269,7 @@ end{lemma}
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 El nucleo de una funcion
 \end_layout
 
@@ -2305,7 +2310,7 @@ nucleo
 .
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Funcion caracteristica de un subconjunto
 \end_layout
 
@@ -2377,7 +2382,7 @@ con respecto a
 .
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Restriccion de una funcion
 \end_layout
 
@@ -2440,7 +2445,7 @@ Notese que cualesquiera sea la funcion
 .
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Funciones de la forma 
 \begin_inset Formula $[f_{1},...,f_{n}]$
 \end_inset
@@ -2496,7 +2501,7 @@ Notese que
 .
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Union de funciones con dominios disjuntos
 \end_layout
 
@@ -2539,7 +2544,7 @@ f_{k}(e) &  & \text{si }e\in A_{k}
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Relaciones binarias
 \end_layout
 
@@ -2777,7 +2782,7 @@ Como es usual, cuando
 .
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Propiedades notables de relaciones binarias
 \end_layout
 
@@ -2978,7 +2983,7 @@ transitiva, simetrica o antisimetrica, con respecto a
 .
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 \begin_inset CommandInset label
 LatexCommand label
 name "ordenes parciales"
@@ -3490,7 +3495,7 @@ Si
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Ordenes totales sobre un conjunto
 \end_layout
 
@@ -3795,7 +3800,7 @@ es el sucesor de
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Diagramas de Hasse
 \end_layout
 
@@ -3970,7 +3975,7 @@ Ejemplos:
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Relaciones de equivalencia
 \end_layout
 
@@ -4915,7 +4920,7 @@ end{lemma}
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Definicion de funciones con dominio 
 \begin_inset Formula $A/R$
 \end_inset
@@ -5141,7 +5146,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Correspondencia entre relaciones de equivalencia y particiones
 \end_layout
 
@@ -5907,7 +5912,7 @@ nos estaremos refiriendo a
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Operaciones 
 \begin_inset Formula $n$
 \end_inset
@@ -6147,7 +6152,7 @@ cerrado bajo
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Relaciones 
 \begin_inset Formula $n$
 \end_inset
@@ -6355,7 +6360,7 @@ status collapsed
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Funciones 
 \begin_inset Formula $\Sigma$
 \end_inset
@@ -6470,7 +6475,7 @@ Con esta convencion notacional, un elemento generico de
 
 \end_layout
 
-\begin_layout Paragraph*
+\begin_layout Subsubsection*
 Definicion de funcion 
 \begin_inset Formula $\Sigma$
 \end_inset
@@ -7062,7 +7067,7 @@ A continuacion daremos algunas funciones
 -mixtas basicas las cuales seran frecuentemente usadas.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Funciones 
 \begin_inset Formula $Suc$
 \end_inset
@@ -7108,7 +7113,7 @@ n & \rightarrow & n-1
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Las funciones 
 \begin_inset Formula $d_{a}$
 \end_inset
@@ -7156,7 +7161,7 @@ derecha sub
 .
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Las funciones 
 \begin_inset Formula $p_{i}^{n,m}$
 \end_inset
@@ -7249,7 +7254,7 @@ proyeccion
 .
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Las funciones 
 \begin_inset Formula $C_{k}^{n,m}$
 \end_inset
@@ -7300,7 +7305,7 @@ Notese que
 .
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 La funcion 
 \begin_inset Formula $pr$
 \end_inset
@@ -7335,7 +7340,7 @@ Notese que
 , etc.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 El tipo de una funcion mixta
 \end_layout
 
@@ -7528,7 +7533,7 @@ status collapsed
  (que significa esto?).
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Funciones con imagen contenida en 
 \begin_inset Formula $\omega^{n}\times\Sigma^{\ast m}$
 \end_inset
@@ -7609,7 +7614,7 @@ name "wiki-predicados._sigma._-mixtos"
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Predicados 
 \begin_inset Formula $\Sigma$
 \end_inset
@@ -7666,7 +7671,7 @@ es una funcion
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Operaciones logicas entre predicados
 \end_layout
 
@@ -7736,7 +7741,7 @@ Dados predicados
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Familias 
 \begin_inset Formula $\Sigma$
 \end_inset
@@ -7954,7 +7959,7 @@ name "wiki-conjuntos._:sigma._-mixtos"
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Conjuntos 
 \begin_inset Formula $\Sigma$
 \end_inset
@@ -8052,7 +8057,7 @@ es
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 El tipo de un conjunto mixto
 \end_layout
 
@@ -8182,7 +8187,7 @@ Notese que
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Conjuntos rectangulares
 \end_layout
 
@@ -8472,7 +8477,7 @@ Dejamos como ejercicio para el lector enunciar un lema analogo al anterior
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Notacion lambda
 \end_layout
 
@@ -9025,7 +9030,7 @@ no tiene variables por lo cual pensaremos que siempre produce el valor
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Expresiones lambdificables con respecto a 
 \begin_inset Formula $\Sigma$
 \end_inset
@@ -9203,7 +9208,7 @@ es lambdificable con respecto a
 
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsection*
 Definicion de 
 \begin_inset Formula $\lambda x_{1}...x_{n}\alpha_{1}...\alpha_{m}\left[E\right]$
 \end_inset
@@ -9864,7 +9869,7 @@ es lambdificable con respecto a
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Ordenes naturales sobre 
 \begin_inset Formula $\Sigma^{\ast}$
 \end_inset
@@ -9900,7 +9905,7 @@ En esta seccion daremos biyecciones naturales entre
 .
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Notacion decimal sin 
 \begin_inset Formula $0$
 \end_inset
@@ -11201,7 +11206,7 @@ status collapsed
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Prueba de las propiedades (S) e (I)
 \end_layout
 
@@ -11523,7 +11528,7 @@ Pero claramente de (4) se desprenden en forma obvia las propiedades (S)
  y (I).
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 El caso general
 \end_layout
 
@@ -12564,7 +12569,7 @@ Supongamos ahora que
 .
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Caracter recursivo de las funciones 
 \begin_inset Formula $s^{\leq}$
 \end_inset
@@ -12682,7 +12687,7 @@ Dejamos al lector corroborar que la funcion
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Extension del orden total de 
 \begin_inset Formula $\Sigma$
 \end_inset
@@ -12831,7 +12836,7 @@ end{lemma}
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Codificacion de infinituplas de numeros
 \end_layout
 
@@ -13839,7 +13844,7 @@ end{lemma}
 
 \end_layout
 
-\begin_layout Section
+\begin_layout Chapter
 \begin_inset CommandInset label
 LatexCommand label
 name "ParadigmaFilosofico"
@@ -14093,7 +14098,7 @@ status collapsed
 , los cuales nos haran falta mas adelante en los ejemplos.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Funciones 
 \begin_inset Formula $\Sigma$
 \end_inset
@@ -15217,7 +15222,7 @@ Nota Importante:
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Constructores que preservan computabilidad efectiva
 \end_layout
 
@@ -15409,7 +15414,7 @@ end{lemma}
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Composicion
 \end_layout
 
@@ -16012,7 +16017,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Lema de division por casos para funciones 
 \begin_inset Formula $\Sigma$
 \end_inset
@@ -16326,7 +16331,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 \begin_inset CommandInset label
 LatexCommand label
 name "conjuntos sigma-efectivamente computables"
@@ -16811,7 +16816,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 \begin_inset CommandInset label
 LatexCommand label
 name "conjuntos sigma-efectivamente enumerables"
@@ -19165,7 +19170,7 @@ end{lemma}
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Independencia del alfabeto
 \end_layout
 
@@ -19373,7 +19378,7 @@ Dejamos al lector los detalles de las rutinarias pruebas de estos dos lemas.
 
 \end_layout
 
-\begin_layout Section
+\begin_layout Chapter
 Tres modelos matematicos de la computabilidad efectiva
 \end_layout
 
@@ -19475,7 +19480,7 @@ En esta seccion daremos las tres formalizaciones matematicas mas clasicas
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 \begin_inset CommandInset label
 LatexCommand label
 name "BasicosMaquinasDeTuring"
@@ -19556,7 +19561,7 @@ deterministicas
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Descripcion informal de las maquinas de Turing
 \end_layout
 
@@ -20103,7 +20108,7 @@ en algun momento
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Definicion matematica de maquina de Turing
 \end_layout
 
@@ -20445,7 +20450,7 @@ Si bien en nuestra definicion de maquina de Turing no hay ninguna restriccion
 , no afectara la profundidad y generalidad de nuestros resultados.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Descripciones instantaneas
 \end_layout
 
@@ -20631,7 +20636,7 @@ St(d)=\text{unico simbolo de }Q\text{ que ocurre en }d
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 La relacion 
 \begin_inset Formula $\vdash$
 \end_inset
@@ -20806,7 +20811,7 @@ d\overset{\ast}{\vdash}d^{\prime}\text{ sii }(\exists n\in\omega)\;d\overset{n}{
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Detencion
 \end_layout
 
@@ -20889,7 +20894,7 @@ Deberia quedar claro que es posible que
  sea no vacio.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 El lenguaje 
 \begin_inset Formula $L(M)$
 \end_inset
@@ -20945,7 +20950,7 @@ L(M)=\{\alpha\in\Sigma^{\ast}:\alpha\text{ es aceptada por }M\text{ por alcance 
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 El lenguaje 
 \begin_inset Formula $H(M)$
 \end_inset
@@ -21009,7 +21014,7 @@ H(M)=\{\alpha\in\Sigma^{\ast}:\alpha\text{ es aceptada por }M\text{ por detencio
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Funciones 
 \begin_inset Formula $\Sigma$
 \end_inset
@@ -21460,7 +21465,7 @@ Sin envargo el modelo Turingniano podria a priori no ser del todo correcto
  paradigmas y su relacion, quedara claro que el modelo de Turing es acertado.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Conjuntos 
 \begin_inset Formula $\Sigma$
 \end_inset
@@ -21858,7 +21863,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Conjuntos 
 \begin_inset Formula $\Sigma$
 \end_inset
@@ -22021,7 +22026,7 @@ decide la pertenecia a
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 El paradigma de Godel: Funciones 
 \begin_inset Formula $\Sigma$
 \end_inset
@@ -22180,7 +22185,7 @@ Estos constructores nos permiten dadas ciertas funciones construir o definir
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Composicion
 \end_layout
 
@@ -22783,7 +22788,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Recursion primitiva
 \end_layout
 
@@ -23251,7 +23256,7 @@ El primer caso de recursion primitiva que definiremos a continuacion engloba
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Recursion primitiva sobre variable numerica con valores numericos
 \end_layout
 
@@ -23713,7 +23718,7 @@ Nota importante:
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Recursion primitiva sobre variable numerica con valores alfabeticos
 \end_layout
 
@@ -24062,7 +24067,7 @@ end{lemma}
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Recursion primitiva sobre variable alfabetica con valores numericos
 \end_layout
 
@@ -24772,7 +24777,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Recursion primitiva sobre variable alfabetica con valores alfabeticos
 \end_layout
 
@@ -24993,7 +24998,7 @@ end{lemma}
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Funciones 
 \begin_inset Formula $\Sigma$
 \end_inset
@@ -25153,7 +25158,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Algunas funciones 
 \begin_inset Formula $\Sigma$
 \end_inset
@@ -26328,7 +26333,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Operaciones logicas entre predicados
 \end_layout
 
@@ -26494,7 +26499,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Conjuntos 
 \begin_inset Formula $\Sigma$
 \end_inset
@@ -27776,7 +27781,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Lema de division por casos para funciones 
 \begin_inset Formula $\Sigma$
 \end_inset
@@ -28374,7 +28379,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Sumatoria, productoria y concatenatoria de funciones 
 \begin_inset Formula $\Sigma$
 \end_inset
@@ -28998,7 +29003,7 @@ por lo cual
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Cuantificacion acotada de predicados 
 \begin_inset Formula $\Sigma$
 \end_inset
@@ -29965,7 +29970,7 @@ La idea fundamental subyacente en las aplicaciones anteriores es que en
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Minimizacion y funciones 
 \begin_inset Formula $\Sigma$
 \end_inset
@@ -29988,7 +29993,7 @@ minimizacion
  Tiene dos casos.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Minimizacion de variable numerica
 \end_layout
 
@@ -30550,7 +30555,7 @@ noprefix "false"
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Definicion de funcion 
 \begin_inset Formula $\Sigma$
 \end_inset
@@ -30834,7 +30839,7 @@ noprefix "false"
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Lema de minimizacion acotada de variable numerica de predicados 
 \begin_inset Formula $\Sigma$
 \end_inset
@@ -32102,7 +32107,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Minimizacion de variable alfabetica
 \end_layout
 
@@ -32340,7 +32345,7 @@ y ademas es claro que
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Lema de minimizacion acotada de variable alfabetica de predicados 
 \begin_inset Formula $\Sigma$
 \end_inset
@@ -32645,7 +32650,7 @@ el lema anterior nos dice que
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Conjuntos 
 \begin_inset Formula $\Sigma$
 \end_inset
@@ -32744,7 +32749,7 @@ Deberia entonces quedar claro que si el concepto de funcion
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Conjuntos 
 \begin_inset Formula $\Sigma$
 \end_inset
@@ -32787,7 +32792,7 @@ La version Godeliana del concepto de conjunto
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Algunos resultados basicos
 \end_layout
 
@@ -33802,7 +33807,7 @@ noprefix "false"
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Recursion primitiva sobre valores anteriores
 \end_layout
 
@@ -34057,7 +34062,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Independencia del alfabeto
 \end_layout
 
@@ -36523,7 +36528,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 El paradigma imperativo de Neumann: El lenguaje 
 \begin_inset Formula $\mathcal{S}^{\Sigma}$
 \end_inset
@@ -36554,7 +36559,7 @@ En esta seccion daremos una modelizacion matematica del concepto de funcion
  a este paradigma de computabilidad efectiva como el paradigma de Von Neumann.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 \begin_inset CommandInset label
 LatexCommand label
 name "SintaxisDeSsigma"
@@ -37673,7 +37678,7 @@ I &  & \text{caso contrario}
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Semantica de 
 \begin_inset Formula $\mathcal{S}^{\Sigma}$
 \end_inset
@@ -38408,7 +38413,7 @@ S_{\mathcal{P}}(i,\vec{s},\vec{\sigma})=(i+1,\vec{s},\vec{\sigma})
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 La computacion partiendo de un estado
 \end_layout
 
@@ -38704,7 +38709,7 @@ Notese que en este caso, es claro que el programa
 
 \end_layout
 
-\begin_layout Paragraph*
+\begin_layout Subsubsection*
 Definicion matematica de detencion
 \end_layout
 
@@ -38880,7 +38885,7 @@ nes e intentando realizar la instruccion siguiente a su ultima instruccion.
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Funciones 
 \begin_inset Formula $\Sigma$
 \end_inset
@@ -39576,7 +39581,7 @@ Sin envargo nuestro modelo imperativo de funcion
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Macros
 \end_layout
 
@@ -41221,7 +41226,7 @@ los de tipo IF que cuando son expandidos nos dan un programa salvo por la
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Ejemplo concreto de uso de macros
 \end_layout
 
@@ -41544,7 +41549,7 @@ el cual por supuesto esta escrito con espacios y en forma vertical pero
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Macros asociados a funciones 
 \begin_inset Formula $\Sigma$
 \end_inset
@@ -42194,7 +42199,7 @@ entonces
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Macros asociados a predicados 
 \begin_inset Formula $\Sigma$
 \end_inset
@@ -42669,7 +42674,7 @@ entonces
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Conjuntos 
 \begin_inset Formula $\Sigma$
 \end_inset
@@ -43355,7 +43360,7 @@ Cabe destacar que (3)
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Conjuntos 
 \begin_inset Formula $\Sigma$
 \end_inset
@@ -43509,7 +43514,7 @@ decide la pertenecia a
 
 \end_layout
 
-\begin_layout Paragraph*
+\begin_layout Subsubsection*
 Macros asociados a conjuntos 
 \begin_inset Formula $\Sigma$
 \end_inset
@@ -43643,7 +43648,7 @@ ya que si tal macro existiera seria facil hacer un programa que compute
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Batallas entre paradigmas
 \end_layout
 
@@ -43687,7 +43692,7 @@ status collapsed
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Neumann vence a Godel
 \end_layout
 
@@ -44046,7 +44051,7 @@ end{corollary}
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Se lleno de macros
 \end_layout
 
@@ -44444,7 +44449,7 @@ o de otro programa.
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Godel vence a Neumann
 \end_layout
 
@@ -44477,7 +44482,7 @@ Para probar que toda funcion
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Analisis de la recursividad de la sintaxis de 
 \begin_inset Formula $\mathcal{S}^{\Sigma}$
 \end_inset
@@ -45761,7 +45766,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Analisis de la recursividad de la semantica de 
 \begin_inset Formula $\mathcal{S}^{\Sigma}$
 \end_inset
@@ -45778,7 +45783,7 @@ Para estudiar la recursividad de la semantica de
  de un programa y estudiar su recursividad.
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Paragraph
 Las funciones 
 \begin_inset Formula $i^{n,m}$
 \end_inset
@@ -47326,7 +47331,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Paragraph
 Las funciones 
 \begin_inset Formula $Halt^{n,m}$
 \end_inset
@@ -47617,7 +47622,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Paragraph
 Las funciones 
 \begin_inset Formula $\Phi_{\#}^{n,m}$
 \end_inset
@@ -47842,7 +47847,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Godel vence a Neumann
 \end_layout
 
@@ -48622,7 +48627,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Uso de macros asociados a las funciones 
 \begin_inset Formula $Halt^{n,m}$
 \end_inset
@@ -49195,7 +49200,7 @@ Ahora si podemos dar nuestro progama
 
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Paragraph
 Enumeracion de conjuntos de programas
 \end_layout
 
@@ -49749,7 +49754,7 @@ Por ejemplo
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Godel vence a Turing
 \end_layout
 
@@ -50769,7 +50774,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Turing vence a Neumann
 \end_layout
 
@@ -50794,7 +50799,7 @@ Probaremos que toda funcion
  programa dado.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Construccion de la maquina simuladora de un programa
 \end_layout
 
@@ -51046,7 +51051,7 @@ Una observacion importante es que esta forma de representacion de estados
 
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Paragraph
 Construccion de las maquinas simuladoras de instrucciones
 \end_layout
 
@@ -52030,7 +52035,7 @@ La maquina
 
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Paragraph
 Ejemplo de maquina simuladora de un programa
 \end_layout
 
@@ -52181,7 +52186,7 @@ Dejamos al lector ver en detalle el paralelismo que hay entre las dos sucesiones
 
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Paragraph
 La contruccion de la maquina simuladora
 \end_layout
 
@@ -52563,7 +52568,7 @@ el estado final
 .
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 El lema de la simulacion
 \end_layout
 
@@ -52790,7 +52795,7 @@ Cabe destacar que si bien la veracidad de este lema es sustentada en las
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Turing vence a Neumann
 \end_layout
 
@@ -53607,7 +53612,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Conclusiones: La tesis de Church
 \end_layout
 
@@ -54149,7 +54154,7 @@ Si bien no se ha podido dar una prueba estrictamente matematica de la Tesis
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 \begin_inset CommandInset label
 LatexCommand label
 name "survey recursivo"
@@ -54182,7 +54187,7 @@ noprefix "false"
  (la indecidibilidad del halting problem, por ejemplo).
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Lema de division por casos para funciones 
 \begin_inset Formula $\Sigma$
 \end_inset
@@ -54631,7 +54636,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 \begin_inset CommandInset label
 LatexCommand label
 name "basicas de conjuntos R y RE"
@@ -57187,17 +57192,13 @@ begin{proof}
 \end_inset
 
  y las funciones 
-\begin_inset Formula $F_{(i)}%TCIMACRO{\U{b4}}%
-%BeginExpansion
-\acute{}%EndExpansion
-s$
+\begin_inset Formula $F_{(i)}%TCIMACRO{\U{b4}}%%BeginExpansion\acute{}%EndExpansions\ensuremath{}
+$
 \end_inset
 
  y 
-\begin_inset Formula $G_{(i)}%TCIMACRO{\U{b4}}%
-%BeginExpansion
-\acute{}%EndExpansion
-s$
+\begin_inset Formula $G_{(i)}%TCIMACRO{\U{b4}}%%BeginExpansion\acute{}%EndExpansions\ensuremath{}
+$
 \end_inset
 
  son 
@@ -57836,7 +57837,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 El halting problem y los conjuntos 
 \begin_inset Formula $A$
 \end_inset
@@ -58944,7 +58945,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Section
+\begin_layout Chapter
 \begin_inset CommandInset label
 LatexCommand label
 name "Seccion estructuras algebraicas ordenadas"
@@ -58985,7 +58986,7 @@ Finalmente cabe destacar que los resultados cubiertos en esta seccion son
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Conjuntos parcialmente ordenados
 \end_layout
 
@@ -59474,7 +59475,7 @@ El mismo tipo de convencion notacional se hara cuando denotemos con
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Diagramas de Hasse
 \end_layout
 
@@ -59638,7 +59639,7 @@ Algunos ejemplos:
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Elementos maximales, maximos, minimales y minimos
 \end_layout
 
@@ -59860,7 +59861,7 @@ tiene un
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Supremos
 \end_layout
 
@@ -60443,7 +60444,7 @@ Consideremos el poset
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Infimos
 \end_layout
 
@@ -60993,7 +60994,7 @@ Consideremos el poset
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Homomorfismos de posets
 \end_layout
 
@@ -62169,7 +62170,7 @@ Muchas veces tener presente dicha regla es la diferencia a que a uno le
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Version geometrica del concepto de reticulado
 \end_layout
 
@@ -64130,7 +64131,7 @@ Las cinco reglas consideradas estan muy vinculadas al concepto de inteligencia
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Version algebraica del concepto de reticulado
 \end_layout
 
@@ -64891,7 +64892,7 @@ Recordemos que algo similar sucedia con los conceptos equivalentes de relacion
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 El orden asociado a un reticulado
 \end_layout
 
@@ -65004,7 +65005,7 @@ poset asociado a
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Notacion
 \end_layout
 
@@ -65405,7 +65406,7 @@ Estas ambiguedades no nos traeran problemas si estamos atentos al contexto.
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Subreticulados
 \end_layout
 
@@ -65668,7 +65669,7 @@ Es facil de chequear que si
 .
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Homomorfismos de reticulados
 \end_layout
 
@@ -66349,7 +66350,7 @@ Encontrar dos reticulados,
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Congruencias de reticulados
 \end_layout
 
@@ -67252,7 +67253,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Reticulados acotados
 \end_layout
 
@@ -67404,7 +67405,7 @@ tenemos que
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Subreticulados acotados
 \end_layout
 
@@ -67640,7 +67641,7 @@ Es facil de chequear que si
 .
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Homomorfismos de reticulados acotados
 \end_layout
 
@@ -68015,7 +68016,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Congruencias de reticulados acotados
 \end_layout
 
@@ -68350,7 +68351,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Reticulados complementados
 \end_layout
 
@@ -68600,7 +68601,7 @@ y se obtiene que
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Subreticulados complementados
 \end_layout
 
@@ -68860,7 +68861,7 @@ dos de
 .
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Homomorfismos de reticulados complementados
 \end_layout
 
@@ -69186,7 +69187,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Congruencias de reticulados complementados
 \end_layout
 
@@ -69652,7 +69653,7 @@ end{lemma}
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Algebras de Boole
 \end_layout
 
@@ -70564,7 +70565,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Teoremas del filtro primo y de Rasiowa Sikorski
 \end_layout
 
@@ -72911,7 +72912,7 @@ Tambien notese que si
 
 \end_layout
 
-\begin_layout Section
+\begin_layout Chapter
 \begin_inset CommandInset label
 LatexCommand label
 name "Estructuras y su lenguaje elemental asociado"
@@ -72953,7 +72954,7 @@ elementales
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Formulas elementales para posets
 \end_layout
 
@@ -73563,7 +73564,7 @@ status collapsed
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Variables libres
 \end_layout
 
@@ -73692,7 +73693,7 @@ son
  son acotadas.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Alcance de la ocurrencia de un cuantificador
 \end_layout
 
@@ -74087,7 +74088,7 @@ la cual claramente dice lo mismo acerca de
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Pruebas elementales de posets
 \end_layout
 
@@ -74310,7 +74311,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Formulas elementales de reticulados terna
 \end_layout
 
@@ -74662,7 +74663,7 @@ La sentencia
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Pruebas elementales de reticulados terna
 \end_layout
 
@@ -74915,7 +74916,7 @@ A continuacion introduciremos un tipo nuevo de estructura reticulada para
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Reticulados cuaterna
 \end_layout
 
@@ -75166,7 +75167,7 @@ O sea que, en virtud del teorema de Dedeking, tenemos que un reticulado
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Formulas elementales de reticulados cuaterna
 \end_layout
 
@@ -75389,7 +75390,7 @@ status collapsed
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Pruebas elementales de reticulados cuaterna
 \end_layout
 
@@ -75860,7 +75861,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Formulas elementales de reticulados complementados
 \end_layout
 
@@ -76087,7 +76088,7 @@ status collapsed
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Pruebas elementales de reticulados complementados
 \end_layout
 
@@ -76352,7 +76353,7 @@ Dejamos al lector decribir tal como se viene haciendo desde el comienso
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Grafos
 \end_layout
 
@@ -76419,7 +76420,7 @@ status collapsed
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Formulas elementales de grafos
 \end_layout
 
@@ -76609,7 +76610,7 @@ status collapsed
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Pruebas elementales de grafos
 \end_layout
 
@@ -76642,7 +76643,7 @@ to efectivo que decida si una sentencia elemental de grafos dada tiene una
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Median algebras
 \end_layout
 
@@ -76734,7 +76735,7 @@ Por ejemplo si tomamos un reticulado
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Formulas elementales de median algebras
 \end_layout
 
@@ -76890,7 +76891,7 @@ status collapsed
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Pruebas elementales de median algebras
 \end_layout
 
@@ -77000,7 +77001,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Grafos bicoloreados
 \end_layout
 
@@ -77186,7 +77187,7 @@ status collapsed
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Formulas elementales de grafos bicoloreados
 \end_layout
 
@@ -77481,7 +77482,7 @@ status collapsed
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Pruebas elementales de grafos bicoloreados
 \end_layout
 
@@ -77797,7 +77798,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Section
+\begin_layout Chapter
 Logica matematica
 \end_layout
 
@@ -78154,7 +78155,7 @@ noprefix "false"
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Tipos
 \end_layout
 
@@ -79168,7 +79169,7 @@ Algunos ejemplos de tipos:
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Estructuras de tipo 
 \begin_inset Formula $\tau$
 \end_inset
@@ -80277,7 +80278,7 @@ Tal como en los otros ejemplos vistos, hay estructuras de tipo
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Independencia entre sintaxis y semantica
 \end_layout
 
@@ -80999,7 +81000,7 @@ O sea que hay exactamente
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Un poco de arrogancia
 \end_layout
 
@@ -81104,7 +81105,7 @@ La utilidad de este nuevo concepto general de estructura ira quedando clara
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Formulas elementales de tipo 
 \begin_inset Formula $\tau$
 \end_inset
@@ -82434,7 +82435,7 @@ la sentencia
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 \begin_inset CommandInset label
 LatexCommand label
 name "Teorias elementales y pruebas elementales"
@@ -83498,7 +83499,7 @@ status collapsed
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Pruebas elementales
 \end_layout
 
@@ -84019,7 +84020,7 @@ Ya que
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 \begin_inset CommandInset label
 LatexCommand label
 name "programa"
@@ -84165,7 +84166,7 @@ n y el Teorema de Completitud de Godel.
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Modelo matematico de la sintaxis elemental
 \end_layout
 
@@ -84183,7 +84184,7 @@ En esta seccion daremos un modelo matematico del concepto de formula elemental
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Variables
 \end_layout
 
@@ -84274,7 +84275,7 @@ Denotaremos con
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Terminos
 \end_layout
 
@@ -85020,7 +85021,7 @@ Una posible forma de probar que una palabra dada no es un termino es encontrar
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Unicidad de la lectura de terminos
 \end_layout
 
@@ -86231,7 +86232,7 @@ Notese que si la unicidad de la lectura no fuera cierta, entonces las ecuaciones
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Subterminos
 \end_layout
 
@@ -86889,7 +86890,7 @@ a y reemplazo de ocurrencias las cuales deberan ser comunes a cualquier
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Formulas
 \end_layout
 
@@ -87459,7 +87460,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Unicidad de la lectura de formulas
 \end_layout
 
@@ -88717,7 +88718,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Subformulas
 \end_layout
 
@@ -89058,7 +89059,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 \begin_inset CommandInset label
 LatexCommand label
 name "VariablesLibres"
@@ -90013,7 +90014,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Modelo matematico de las formulas elementales de tipo 
 \begin_inset Formula $\tau$
 \end_inset
@@ -90143,7 +90144,7 @@ Cuando un matematico realiza una prueba elemental en una teoria elemental
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Modelo matematico del valor de verdad de una formula
 \end_layout
 
@@ -90169,7 +90170,7 @@ noprefix "false"
 .
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 El valor de un termino en una estructura
 \end_layout
 
@@ -90832,7 +90833,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 La relacion 
 \begin_inset Formula $\models$
 \end_inset
@@ -92585,7 +92586,7 @@ universalmente valida
 .
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Equivalencia de formulas
 \end_layout
 
@@ -92882,7 +92883,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Un poco de semantica
 \end_layout
 
@@ -92951,7 +92952,7 @@ n con el lenguaje.
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Homomorfismos
 \end_layout
 
@@ -93679,7 +93680,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Algebras
 \end_layout
 
@@ -93910,7 +93911,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Subalgebras
 \end_layout
 
@@ -94351,7 +94352,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Congruencias
 \end_layout
 
@@ -95052,7 +95053,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Producto directo de algebras
 \end_layout
 
@@ -95342,7 +95343,7 @@ end{lemma}
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Dos teoremas de reemplazo
 \end_layout
 
@@ -95354,7 +95355,7 @@ Probaremos dos teoremas muy importantes que en algun sentido nos dicen que
  naturalidad y practicidad.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Notacion declaratoria para terminos
 \end_layout
 
@@ -96268,7 +96269,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Teorema de reemplazo para terminos
 \end_layout
 
@@ -96526,7 +96527,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Notacion declaratoria para formulas
 \end_layout
 
@@ -97962,7 +97963,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Alcance de la ocurrencia de un cuantificador en una formula
 \end_layout
 
@@ -98109,7 +98110,7 @@ de dicha ocurrencia en
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Sustitucion de variables libres
 \end_layout
 
@@ -98505,7 +98506,7 @@ Notese que las propiedades (1),...,(7) pueden usarse para dar una definicion
 .
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Teorema de reemplazo para formulas
 \end_layout
 
@@ -98979,7 +98980,7 @@ las cuales son condiciones claramente no equivalentes.
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Teorias de primer orden
 \end_layout
 
@@ -99587,7 +99588,7 @@ de tipo
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Definicion del concepto de prueba formal
 \end_layout
 
@@ -99657,7 +99658,7 @@ La formalizacion matematica del concepto de prueba elemental es uno de los
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Reglas
 \end_layout
 
@@ -100892,7 +100893,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Axiomas logicos
 \end_layout
 
@@ -101065,7 +101066,7 @@ es universalmente valida
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Justificaciones
 \end_layout
 
@@ -101241,7 +101242,7 @@ Usaremos
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Concatenaciones balanceadas de justificaciones
 \end_layout
 
@@ -101674,7 +101675,7 @@ Si
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Pares adecuados
 \end_layout
 
@@ -101989,7 +101990,7 @@ en
 
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Paragraph
 Dependencia de constantes en pares adecuados
 \end_layout
 
@@ -102219,7 +102220,7 @@ en
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Definicion de prueba formal
 \end_layout
 
@@ -103371,7 +103372,7 @@ pero por supuesto, nuestra prueba formal es en realidad el par
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 El concepto de teorema
 \end_layout
 
@@ -103824,7 +103825,7 @@ status collapsed
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Propiedades basicas de pruebas y teoremas
 \end_layout
 
@@ -105087,7 +105088,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Consistencia
 \end_layout
 
@@ -105379,7 +105380,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 El teorema de correccion
 \end_layout
 
@@ -105845,7 +105846,7 @@ name "algebra.de.lindenbaum"
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 El algebra de Lindenbaum
 \end_layout
 
@@ -107125,7 +107126,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Teorema de completitud
 \end_layout
 
@@ -109795,7 +109796,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Interpretacion semantica del algebra de Lindembaum
 \end_layout
 
@@ -110224,7 +110225,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Teorias completas
 \end_layout
 
@@ -110520,7 +110521,7 @@ Ya que lo mas comun es que una teoria tenga un par de modelos no elementalmente
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 La aritmetica de Peano
 \end_layout
 
@@ -112397,7 +112398,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Logica ecuacional
 \end_layout
 
@@ -112695,7 +112696,7 @@ En esta seccion veremos que, tal como lo probo Birkhoff, esto es posible
  clasicas pueden ser reemplazadas por pruebas con un formato mucho mas amigable.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Pruebas ecuacionales
 \end_layout
 
@@ -112877,7 +112878,7 @@ name "wiki-prueba.ecuacional"
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Definicion de prueba ecuacional
 \end_layout
 
@@ -113123,7 +113124,7 @@ Escribiremos
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Correccion ecuacional
 \end_layout
 
@@ -113587,7 +113588,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Completitud ecuacional
 \end_layout
 
@@ -113603,7 +113604,7 @@ Para probar que el concepto de prueba ecuacional es completo nos haran falta
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 El algebra de terminos
 \end_layout
 
@@ -114573,7 +114574,7 @@ name "wiki-aritmetica.de.peano"
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Teorema de incompletitud
 \end_layout
 
@@ -114703,7 +114704,7 @@ Una respuesta negativa a este problema tambien es dada por el teorema de
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Analisis de recursividad del lenguaje de primer orden
 \end_layout
 
@@ -118045,7 +118046,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Funciones representables
 \end_layout
 
@@ -118953,7 +118954,7 @@ end{proof}
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Prueba del teorema de incompletitud
 \end_layout
 
