@@ -28,10 +28,13 @@
 \newtheorem{theorem}{Theorem}\newtheorem{acknowledgement}[theorem]{Acknowledgement}\newtheorem{algorithm}[theorem]{Algorithm}\newtheorem{axiom}[theorem]{Axiom}\newtheorem{case}[theorem]{Case}\newtheorem{claim}[theorem]{Claim}\newtheorem{conclusion}[theorem]{Conclusion}\newtheorem{condition}[theorem]{Condition}\newtheorem{conjecture}[theorem]{Conjecture}\newtheorem{corollary}[theorem]{Corollary}\newtheorem{criterion}[theorem]{Criterion}\newtheorem{definition}[theorem]{Definition}\newtheorem{example}[theorem]{Example}\newtheorem{exercise}[theorem]{Exercise}\newtheorem{lemma}[theorem]{Lemma}\newtheorem{notation}[theorem]{Notation}\newtheorem{problem}[theorem]{Problem}\newtheorem{proposition}[theorem]{Proposition}\newtheorem{remark}[theorem]{Remark}\newtheorem{solution}[theorem]{Solution}\newtheorem{summary}[theorem]{Summary}\newenvironment{proof}[1][Proof]{\noindent\textbf{#1.} }{\ \rule{0.5em}{0.5em}}
 \end_preamble
 \use_default_options false
-\begin_modules
+\begin_removed_modules
 theorems-ams
 eqs-within-sections
 figs-within-sections
+\end_removed_modules
+\begin_modules
+theorems-ams-chap-bytype
 \end_modules
 \maintain_unincluded_children false
 \language english
@@ -1915,7 +1918,7 @@ Sean
 \end_layout
 
 \begin_layout Lemma
- Sean 
+Sean 
 \begin_inset Formula $f$
 \end_inset
 
@@ -104148,7 +104151,6 @@ f^{\mathbf{A}}((n,m)) & =(n,m+1)
 \end_layout
 
 \begin_layout Lemma
- 
 \begin_inset CommandInset label
 LatexCommand label
 name "v(t,t1,t2,...)"
