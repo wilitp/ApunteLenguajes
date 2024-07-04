@@ -68977,7 +68977,7 @@ Ahora daremos una prueba elemental de la sentencia
 \end_layout
 
 \begin_layout Proof
- [Prueba elemental de 
+[Prueba elemental de 
 \begin_inset Formula $\mu$
 \end_inset
 
@@ -71302,7 +71302,7 @@ Como veremos, los cuatro puntos anteriores pueden ser hechos satisfactoriamente
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\bigskip$
+\begin_inset VSpace bigskip
 \end_inset
 
 
@@ -91994,7 +91994,7 @@ Es importante el siguiente
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\bigskip$
+\begin_inset VSpace bigskip
 \end_inset
 
 
@@ -95322,7 +95322,7 @@ status collapsed
 
 \end_deeper
 \begin_layout Standard
-\begin_inset Formula $\bigskip$
+\begin_inset VSpace bigskip
 \end_inset
 
 
@@ -95604,7 +95604,7 @@ Sea
 \end_layout
 
 \begin_layout Proof
- Sean
+Sean
 \begin_inset Formula 
 \begin{align*}
 \tau_{1} & =(\mathcal{C}\cup\mathcal{C}_{1},\mathcal{F},\mathcal{R},a)\\
