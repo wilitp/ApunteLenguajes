@@ -15041,7 +15041,7 @@ f\circ[f_{1},...,f_{n+m}](\vec{x},\vec{\alpha}) & =f(f_{1}(\vec{x},\vec{\alpha})
 , tenemos que
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Proof
 \begin_inset Argument item:1
 status collapsed
 
@@ -15058,7 +15058,7 @@ status collapsed
 
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Proof
 \begin_inset Argument item:1
 status collapsed
 
@@ -15079,7 +15079,7 @@ status collapsed
 
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Proof
 \begin_inset Argument item:1
 status collapsed
 
@@ -15100,7 +15100,7 @@ status collapsed
  
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Ya que 
 \begin_inset Formula $[f_{1},...,f_{r}]\neq\emptyset$
 \end_inset
@@ -15145,7 +15145,7 @@ Ya que
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Las ultimas observaciones del lema son directas de las definiciones de 
 \begin_inset Formula $[f_{1},...,f_{n+m}]$
 \end_inset
@@ -15386,7 +15386,6 @@ f_{k}(e) &  & \text{si }e\in D_{f_{k}}
 \end_layout
 
 \begin_layout Lemma
- 
 \begin_inset CommandInset label
 LatexCommand label
 name "dpc para efectivamente computables"
@@ -15435,12 +15434,8 @@ Sean
  
 \end_layout
 
-\begin_layout Standard
-
-\end_layout
-
 \begin_layout Proof
- Haremos el caso 
+Haremos el caso 
 \begin_inset Formula $O=\Sigma^{\ast}$
 \end_inset
 
@@ -15473,7 +15468,7 @@ Sean
  el procedimiento efectivo siguiente:
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 - Conjunto de datos de entrada de 
 \begin_inset Formula $\mathbb{P}$
 \end_inset
@@ -15485,7 +15480,7 @@ Sean
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 - Conjunto de datos de salida de 
 \begin_inset Formula $\mathbb{P}$
 \end_inset
@@ -15497,15 +15492,15 @@ Sean
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 - Funcionamiento:
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Etapa 1
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 \noindent
 Hacer 
 \begin_inset Formula $T=1$
@@ -15514,11 +15509,11 @@ Hacer
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Etapa 2
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 \noindent
 Correr el procedimiento 
 \begin_inset Formula $\mathbb{P}_{1}$
@@ -15537,11 +15532,11 @@ Correr el procedimiento
  Si no termina ir a Etapa 3.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Etapa 3
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 \noindent
 Correr el procedimiento 
 \begin_inset Formula $\mathbb{P}_{2}$
@@ -15560,11 +15555,11 @@ Correr el procedimiento
  Si no termina ir a Etapa 4.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Etapa 4
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 \noindent
 Hacer 
 \begin_inset Formula $T=T+1$
@@ -15573,11 +15568,11 @@ Hacer
  e ir a Etapa 2
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Etapa 5
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 \noindent
 Dar como salida el contenido de 
 \begin_inset Formula $X$
@@ -15586,7 +15581,7 @@ Dar como salida el contenido de
  y terminar.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Dejamos al lector corroborar que el procedimiento 
 \begin_inset Formula $\mathbb{P}$
 \end_inset
