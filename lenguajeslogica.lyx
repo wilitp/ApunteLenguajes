@@ -70902,7 +70902,7 @@ lo cual claramente es un absurdo.
 \end_layout
 
 \begin_layout Proof
- [Prueba elemental de 
+[Prueba elemental de 
 \begin_inset Formula $\forall x\forall y\forall z\lnot(r(x,y)\wedge r(x,z)\wedge r(y,z))$
 \end_inset
 
@@ -73785,6 +73785,7 @@ Esta libertad en la definicion de tipo y tambien en la definicion de estructura
  Se tiene que:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -73839,6 +73840,7 @@ si
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -73880,7 +73882,7 @@ f & \rightarrow & (f(a_{1}),...,f(a_{n}))
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (2) Ya que los subconjuntos de 
 \begin_inset Formula $A$
 \end_inset
@@ -77881,6 +77883,7 @@ Supongamos
  Entonces se da alguna de las siguientes:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -77928,6 +77931,7 @@ status collapsed
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -77944,7 +77948,7 @@ status collapsed
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 CASO 
 \begin_inset Formula $k=1$
 \end_inset
@@ -77960,7 +77964,7 @@ T_{1}^{\tau}=Var\cup\mathcal{C}\cup\{f(t_{1},...,t_{n}):f\in\mathcal{F}_{n}\text
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 CASO 
 \begin_inset Formula $k\Rightarrow k+1$
 \end_inset
@@ -78282,6 +78286,7 @@ Sea
  Se tiene:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -78349,6 +78354,7 @@ Si
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -78971,6 +78977,7 @@ Dado
 se da una de las siguientes:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status open
@@ -79030,6 +79037,7 @@ tales que
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -79616,6 +79624,7 @@ Sean
 .
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -79729,6 +79738,7 @@ por
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -79823,7 +79833,7 @@ noprefix "false"
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (b) y (c) pueden probarse por induccion, usando (a).
  
 \end_layout
@@ -80293,7 +80303,7 @@ Supongamos
  es de alguna de las siguientes formas
 \end_layout
 
-\begin_layout Standard
+\begin_layout Lemma
 \begin_inset Formula $\varphi=(t\equiv s),$
 \end_inset
 
@@ -80306,7 +80316,7 @@ Supongamos
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Lemma
 \begin_inset Formula $\varphi=r(t_{1},...,t_{n}),$
 \end_inset
 
@@ -80331,7 +80341,7 @@ Supongamos
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Lemma
 \begin_inset Formula $\varphi=(\varphi_{1}\eta\varphi_{2}),$
 \end_inset
 
@@ -80342,7 +80352,7 @@ Supongamos
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Lemma
 \begin_inset Formula $\varphi=\lnot\varphi_{1},$
 \end_inset
 
@@ -80353,7 +80363,7 @@ Supongamos
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Lemma
 \begin_inset Formula $\varphi=Qv\varphi_{1},$
 \end_inset
 
@@ -80368,12 +80378,8 @@ Supongamos
  
 \end_layout
 
-\begin_layout Standard
-
-\end_layout
-
 \begin_layout Proof
- Induccion en 
+Induccion en 
 \begin_inset Formula $k$
 \end_inset
 
@@ -80416,6 +80422,7 @@ Sea
  un tipo.
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -80498,6 +80505,7 @@ Sea
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -80529,7 +80537,7 @@ Sea
  Hay varios casos de los cuales haremos solo dos
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 CASO 
 \begin_inset Formula $\varphi=(\psi_{1}\eta\psi_{2})$
 \end_inset
@@ -80545,7 +80553,7 @@ CASO
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 \noindent
 Podemos tomar 
 \begin_inset Formula $x=\varepsilon$
@@ -80558,7 +80566,7 @@ Podemos tomar
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 CASO 
 \begin_inset Formula $\varphi=Qx_{i}\psi$
 \end_inset
@@ -80578,7 +80586,7 @@ CASO
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 \noindent
 Por HI hay 
 \begin_inset Formula $\bar{x}\in(\{\lnot\}\cup\{Qv:Q\in\{\forall,\exists\}$
@@ -81259,6 +81267,7 @@ Dada
 se da una y solo una de las siguientes:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status open
@@ -81376,7 +81385,8 @@ status open
  
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Theorem
 \noindent
 Mas aun, en los puntos (1), (2), (3), (4) y (5) tales descomposiciones son
  unicas.
@@ -81422,7 +81432,7 @@ Mas aun, en los puntos (1), (2), (3), (4) y (5) tales descomposiciones son
  son excluyentes.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 La unicidad en las descomposiciones de (4) y (5) es obvia.
  La de (3) se desprende facilmente del lema anterior y la de los puntos
  (1) y (2) del lema analogo para terminos.
@@ -81520,6 +81530,7 @@ Sea
  un tipo.
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -81715,6 +81726,7 @@ por
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -82332,6 +82344,7 @@ sera una formula
  
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -82433,6 +82446,7 @@ status collapsed
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -82445,7 +82459,7 @@ status collapsed
  (a) y (b) son triviales de las definiciones y dejadas al lector
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (d) Supongamos 
 \begin_inset Formula $v\in Li((\varphi\eta\psi))$
 \end_inset
@@ -82498,7 +82512,7 @@ status collapsed
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Supongamos ahora que 
 \begin_inset Formula $v\in Li(\varphi)\cup Li(\psi)$
 \end_inset
@@ -82546,11 +82560,11 @@ Supongamos ahora que
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (c) es similar a (d)
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (e) Supongamos 
 \begin_inset Formula $v\in Li(Qx_{j}\varphi)$
 \end_inset
@@ -82595,7 +82609,7 @@ Supongamos ahora que
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Supongamos ahora que 
 \begin_inset Formula $v\in Li(\varphi)-\{x_{j}\}$
 \end_inset
@@ -83297,7 +83311,7 @@ Sea
  Sea
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Proof
 \begin_inset Argument item:1
 status collapsed
 
@@ -83319,7 +83333,7 @@ Teo
  
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Teo
 \begin_inset Formula $_{0}$
 \end_inset
@@ -84809,7 +84823,7 @@ noprefix "false"
  Hay varios casos:
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 CASO 
 \begin_inset Formula $\varphi=(\varphi_{1}\wedge\varphi_{2})$
 \end_inset
@@ -84817,7 +84831,7 @@ CASO
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 \noindent
 Ya que 
 \begin_inset Formula $Li(\varphi_{i})\subseteq Li(\varphi)$
@@ -84863,7 +84877,7 @@ Ya que
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 CASO 
 \begin_inset Formula $\varphi=(\varphi_{1}\vee\varphi_{2})$
 \end_inset
@@ -84871,12 +84885,12 @@ CASO
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 \noindent
 Es completamente similar al anterior.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 CASO 
 \begin_inset Formula $\varphi=(\varphi_{1}\rightarrow\varphi_{2})$
 \end_inset
@@ -84884,12 +84898,12 @@ CASO
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 \noindent
 Es completamente similar al anterior.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 CASO 
 \begin_inset Formula $\varphi=(\varphi_{1}\leftrightarrow\varphi_{2})$
 \end_inset
@@ -84897,12 +84911,12 @@ CASO
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 \noindent
 Es completamente similar al anterior.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 CASO 
 \begin_inset Formula $\varphi=\lnot\varphi_{1}.$
 \end_inset
@@ -84910,12 +84924,12 @@ CASO
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 \noindent
 Es completamente similar al anterior.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 CASO 
 \begin_inset Formula $\varphi=\forall x_{j}\varphi_{1}.$
 \end_inset
@@ -84923,7 +84937,7 @@ CASO
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 \noindent
 Supongamos 
 \begin_inset Formula $\mathbf{A}\models\varphi[\vec{a}]$
@@ -84992,7 +85006,7 @@ Supongamos
  es similar.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 CASO 
 \begin_inset Formula $\varphi=\exists x_{j}\varphi_{1}$
 \end_inset
@@ -85000,7 +85014,7 @@ CASO
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 \noindent
 Es similar al anterior.
  
@@ -85211,6 +85225,7 @@ es una relacion de equivalencia sobre
 
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -85310,6 +85325,7 @@ Si
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -85348,11 +85364,11 @@ Si
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (b) Es dejado al lector.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (c) Por induccion en el 
 \begin_inset Formula $k$
 \end_inset
@@ -85766,6 +85782,7 @@ para cada
  Sea
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -85804,7 +85821,8 @@ para cada
  
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Proof
 Teo
 \begin_inset Formula $_{0}$
 \end_inset
@@ -85954,6 +85972,7 @@ para cada
  Sea
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -85993,7 +86012,8 @@ para cada
  
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Proof
 Prueba de Teo
 \begin_inset Formula $_{0}$
 \end_inset
@@ -87904,6 +87924,7 @@ Sea
 , entonces se da alguna de las siguientes
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -87975,6 +87996,7 @@ status collapsed
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -87984,7 +88006,7 @@ status collapsed
 \end_layout
 
 \begin_layout Proof
- Rutina 
+Rutina 
 \end_layout
 
 \begin_layout Standard
@@ -88149,6 +88171,7 @@ Sea
  Se tiene que:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -88224,6 +88247,7 @@ t^{\mathbf{A}}[a_{1},....,a_{n}]=f^{\mathbf{A}}(t_{1}^{\mathbf{A}}[a_{1},....,a_
 
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -88236,7 +88260,7 @@ t^{\mathbf{A}}[a_{1},....,a_{n}]=f^{\mathbf{A}}(t_{1}^{\mathbf{A}}[a_{1},....,a_
  (1) y (2) son triviales.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (3) Sea 
 \begin_inset Formula $\vec{b}$
 \end_inset
@@ -88263,10 +88287,6 @@ t^{\mathbf{A}}[a_{1},....,a_{n}] & =t^{\mathbf{A}}[\vec{b}]\text{ (por def. de }
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 
 \end_layout
 
@@ -88788,6 +88808,7 @@ Sea
  Entonces se una y solo una de las siguientes:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -89127,6 +89148,7 @@ status collapsed
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -89338,6 +89360,7 @@ status collapsed
  Entonces
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -89830,6 +89853,7 @@ status collapsed
 
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -90427,6 +90451,7 @@ Supongamos
  Entonces
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -90477,6 +90502,7 @@ Si declaramos
 
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -90537,7 +90563,7 @@ noprefix "false"
  Hay varios casos
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 CASO 
 \begin_inset Formula $\varphi=\forall w\varphi_{1}$
 \end_inset
@@ -90549,7 +90575,7 @@ CASO
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 \noindent
 Notese que cada 
 \begin_inset Formula $w_{j}\in Li(\varphi_{1})$
@@ -91905,7 +91931,7 @@ Es importante el siguiente
 \end_layout
 
 \begin_layout Proof
- Notese que 
+Notese que 
 \begin_inset Formula $c$
 \end_inset
 
@@ -92273,7 +92299,7 @@ noprefix "false"
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Veamos que la regla de reemplazo es universal.
  Debemos probar que si 
 \begin_inset Formula $(\psi_{1},\psi_{2},\varphi)\in Reemp^{\tau}=Reemp1^{\tau}\cup Reemp2^{\tau}$
@@ -92301,7 +92327,7 @@ Veamos que la regla de reemplazo es universal.
  que si se dan las siguientes condiciones
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Proof
 \begin_inset Argument item:1
 status collapsed
 
@@ -92322,7 +92348,7 @@ status collapsed
 
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Proof
 \begin_inset Argument item:1
 status collapsed
 
@@ -92343,7 +92369,7 @@ status collapsed
 
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Proof
 \begin_inset Argument item:1
 status collapsed
 
@@ -92372,7 +92398,7 @@ status collapsed
 ,
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Proof
 \begin_inset Argument item:1
 status collapsed
 
@@ -92397,12 +92423,12 @@ status collapsed
  
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 \noindent
 entonces se da que
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Proof
 \begin_inset Argument item:1
 status collapsed
 
@@ -92428,7 +92454,7 @@ status collapsed
  
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 CASO 
 \begin_inset Formula $k=0.$
 \end_inset
@@ -92436,7 +92462,7 @@ CASO
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 \noindent
 Entonces 
 \begin_inset Formula $\alpha$
@@ -92453,7 +92479,7 @@ Entonces
 , la situacion es facil de probar.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 CASO 
 \begin_inset Formula $\alpha=\forall x_{i}\alpha_{1}.$
 \end_inset
@@ -92461,7 +92487,7 @@ CASO
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 \noindent
 Si 
 \begin_inset Formula $\varphi=\alpha$
@@ -92511,7 +92537,7 @@ CASO
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 \noindent
 Si 
 \begin_inset Formula $\varphi=\alpha$
@@ -92554,7 +92580,7 @@ Si
 Los demas casos son dejados al lector.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Dejamos al lector el chequeo de la universalidad del resto de las reglas.
  
 \end_layout
@@ -95929,6 +95955,7 @@ Sea
  una teoria.
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -96014,6 +96041,7 @@ status collapsed
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -96109,6 +96137,7 @@ noprefix "false"
  de la siguiente manera.
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -96263,7 +96292,8 @@ Si
  
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Proof
 \noindent
 Es facil chequear que
 \begin_inset Formula 
@@ -96284,7 +96314,7 @@ es una prueba formal de
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (2) Notese que
 \begin_inset Formula 
 \[
@@ -96314,7 +96344,7 @@ es una prueba formal de
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (3) Supongamos 
 \begin_inset Formula $(\Sigma,\tau)\vdash(\varphi\rightarrow\psi)$
 \end_inset
@@ -96358,6 +96388,7 @@ es una prueba formal de
  de la siguiente manera.
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -96512,7 +96543,8 @@ Si
  
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Proof
 \noindent
 Sea 
 \begin_inset Formula $m$
@@ -96642,6 +96674,7 @@ Sea
  una teoria.
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -96714,6 +96747,7 @@ Si
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -96765,7 +96799,7 @@ noprefix "false"
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (2) Supongamos 
 \begin_inset Formula $(\Sigma,\tau)$
 \end_inset
@@ -96808,7 +96842,7 @@ noprefix "false"
  es inconsistente.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (3) es dejada al lector.
  
 \end_layout
@@ -96998,7 +97032,7 @@ Un corolario muy importante del Teorema de Correccion es el siguiente.
 \end_layout
 
 \begin_layout Proof
- Supongamos 
+Supongamos 
 \begin_inset Formula $\mathbf{A}$
 \end_inset
 
@@ -97349,7 +97383,7 @@ noprefix "false"
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Analogamente, usando la regla de transitividad se puede probar que 
 \begin_inset Formula $\dashv\vdash_{T}$
 \end_inset
@@ -97404,6 +97438,7 @@ Dada una teoria
 , se tiene que:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -97446,6 +97481,7 @@ status collapsed
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -97765,7 +97801,7 @@ Dada una teoria
 \end_layout
 
 \begin_layout Proof
- Por definicion de algebra de Boole, debemos probar que cualesquiera sean
+Por definicion de algebra de Boole, debemos probar que cualesquiera sean
  
 \begin_inset Formula $\varphi_{1},\varphi_{2},\varphi_{3}\in S^{\tau}$
 \end_inset
@@ -97773,6 +97809,7 @@ Dada una teoria
 , se cumplen las siguientes igualdades:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -97994,7 +98031,8 @@ status collapsed
  
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Proof
 Veamos por ejemplo que se da (10), es decir probaremos que 
 \begin_inset Formula $[\varphi_{1}]_{T}\;\mathsf{s}^{T}\mathsf{\;}1^{T}=1^{T}$
 \end_inset
@@ -98512,6 +98550,7 @@ Sean
  tipos.
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -98590,10 +98629,7 @@ Si
  
 \end_layout
 
-\begin_layout Standard
-
-\end_layout
-
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -98654,6 +98690,7 @@ noprefix "false"
 , entonces:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -98688,7 +98725,8 @@ status collapsed
  es un tipo 
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Proof
 \noindent
 Pero entonces 
 \begin_inset Formula $(\tilde{\varphi}_{1}...\tilde{\varphi}_{n},J_{1}...J_{n})$
@@ -98709,7 +98747,7 @@ Pero entonces
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (2) Supongamos 
 \begin_inset Formula $(\Sigma,\tau^{\prime})\vdash\varphi$
 \end_inset
@@ -99028,7 +99066,7 @@ noprefix "false"
  (por que?).
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Ahora supongamos el caso mas general donde 
 \begin_inset Formula $v$
 \end_inset
@@ -99111,7 +99149,7 @@ y
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 es claro que
 \begin_inset Formula 
 \begin{align*}
@@ -99253,6 +99291,7 @@ Entonces
 .
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -99328,6 +99367,7 @@ Si
 
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -99352,11 +99392,11 @@ Si
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (a) y (b) son directos por induccion.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (c) Supongamos que 
 \begin_inset Formula $(\Sigma,\tau)\models\varphi$
 \end_inset
@@ -99391,6 +99431,7 @@ Si
  definido de la siguiente manera
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -99542,7 +99583,8 @@ status collapsed
  
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Proof
 \noindent
 Ya que 
 \begin_inset Formula $\mathbf{A}^{\prime}\models\Sigma$
@@ -99592,6 +99634,7 @@ Ya que
  tal que:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -99638,6 +99681,7 @@ Si
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -99740,7 +99784,7 @@ Sea
 \end_layout
 
 \begin_layout Proof
- Primero probaremos completitud para el caso en que 
+Primero probaremos completitud para el caso en que 
 \begin_inset Formula $\tau$
 \end_inset
 
@@ -99780,6 +99824,7 @@ Sea
  tal que:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -99826,7 +99871,8 @@ Si
  
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Proof
 \noindent
 Para cada 
 \begin_inset Formula $j\in\mathbf{N}$
@@ -99880,6 +99926,7 @@ noprefix "false"
 , el cual cumple:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -99922,7 +99969,8 @@ Para cada
  
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Proof
 \noindent
 Ya que la infinitupla 
 \begin_inset Formula $(\gamma_{1},\gamma_{2},...)$
@@ -99932,6 +99980,7 @@ Ya que la infinitupla
  la propiedad (b) de la siguiente manera
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -99961,7 +100010,8 @@ Para cada
  
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Proof
 \noindent
 Definamos sobre 
 \begin_inset Formula $T_{c}^{\tau}$
@@ -99978,6 +100028,7 @@ t\bowtie s\text{ si y solo si }[(t\equiv s)]_{T}\in\mathcal{U}\text{.}
 Veamos entonces que:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -100069,7 +100120,8 @@ t_{1}\bowtie s_{1},t_{2}\bowtie s_{2},...,\;t_{n}\bowtie s_{n}\text{ implica }f(
 
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Proof
 Probaremos (2).
  Notese que
 \begin_inset Formula 
@@ -100103,7 +100155,7 @@ ya que
  La otra implicacion es analoga.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Para probar (3) podemos tomar 
 \begin_inset Formula $\varphi=\left(f(v_{1},...,v_{n})\equiv f(s_{1},...,s_{n})\right)$
 \end_inset
@@ -100111,7 +100163,7 @@ Para probar (3) podemos tomar
  y aplicar (2).
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Definamos ahora un modelo 
 \begin_inset Formula $\mathbf{A}_{\mathcal{U}}$
 \end_inset
@@ -100123,6 +100175,7 @@ Definamos ahora un modelo
  de la siguiente manera:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -100208,7 +100261,8 @@ status collapsed
  
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Proof
 Notese que la definicion de 
 \begin_inset Formula $f^{\mathbf{A}_{\mathcal{U}}}$
 \end_inset
@@ -100217,6 +100271,7 @@ Notese que la definicion de
  Probaremos las siguientes propiedades basicas:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -100275,7 +100330,8 @@ Para cada
 
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Proof
 La prueba de (4) es directa por induccion.
  Probaremos (5) por induccion en el 
 \begin_inset Formula $k$
@@ -100304,7 +100360,7 @@ La prueba de (4) es directa por induccion.
  Hay varios casos:
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 CASO 
 \begin_inset Formula $\varphi=\left(\varphi_{1}\vee\varphi_{2}\right)$
 \end_inset
@@ -100312,7 +100368,7 @@ CASO
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Notese que por la Convencion Notacional 6, tenemos que 
 \begin_inset Formula $\varphi_{i}=_{d}\varphi_{i}(v_{1},...,v_{n})$
 \end_inset
@@ -100438,7 +100494,7 @@ Pero ahora notese que (5) en particular nos dice que para cada sentencia
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Ahora supongamos que 
 \begin_inset Formula $\tau$
 \end_inset
@@ -100571,6 +100627,7 @@ Sea
  una teoria.
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -100626,6 +100683,7 @@ Si
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -100682,7 +100740,7 @@ Si
  es consistente por lo cual tiene un modelo.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (b) Si 
 \begin_inset Formula $(\Sigma,\tau)\models\varphi$
 \end_inset
@@ -100828,6 +100886,7 @@ name "bolcitas"
  se tiene:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -100891,6 +100950,7 @@ status collapsed
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -101063,6 +101123,7 @@ completa
  Son equivalentes
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -101139,6 +101200,7 @@ status collapsed
  tiene exactamente dos elementos 
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -101196,7 +101258,7 @@ status collapsed
  son elementalmente equivalentes.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Ahora supongamos vale (2).
  Probaremos (3).
  Ya que 
@@ -101233,7 +101295,7 @@ Ahora supongamos vale (2).
  es un teorema.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Obviamente (3) impica que toda sentencia es o un teorema o refutable y esto
  nos dice que 
 \begin_inset Formula $0^{(\Sigma,\tau)}\cup1^{(\Sigma,\tau)}=S^{\tau}$
@@ -101251,7 +101313,7 @@ Obviamente (3) impica que toda sentencia es o un teorema o refutable y esto
  es consistente, tenemos que vale (4).
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Es trivial que (4) implica (1).
  
 \end_layout
@@ -101797,6 +101859,7 @@ Para probar que
 , tenemos que
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -101823,7 +101886,8 @@ Para cada
  
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Proof
 Pero por el lema de reemplazo, tenemos que 
 \begin_inset Formula $\mathbf{\omega}\vDash\psi(\vec{v},+(v_{n+1},1))[\vec{a},a]$
 \end_inset
@@ -101835,6 +101899,7 @@ Pero por el lema de reemplazo, tenemos que
 , lo cual nos dice que
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -101861,7 +101926,8 @@ Para cada
  
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Proof
 Ya que 
 \begin_inset Formula $0\in S$
 \end_inset
@@ -101894,7 +101960,7 @@ Ya que
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Es rutina probar que 
 \begin_inset Formula $\mathbf{\omega}$
 \end_inset
@@ -102260,6 +102326,7 @@ si
  Las siguientes sentencias son teoremas de la aritmetica de Peano:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -102413,10 +102480,7 @@ status collapsed
  
 \end_layout
 
-\begin_layout Standard
-
-\end_layout
-
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -102425,7 +102489,7 @@ status collapsed
  (1) es dejada al lector.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (2)
 \begin_inset Formula 
 \[
@@ -102448,7 +102512,7 @@ status collapsed
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (3)
 \begin_inset Formula 
 \[
@@ -102480,7 +102544,7 @@ status collapsed
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 
 \end_layout
 
@@ -102508,6 +102572,7 @@ status collapsed
  Las siguientes sentencias son teoremas de la aritmetica de Peano:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -102576,6 +102641,7 @@ status collapsed
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -102623,7 +102689,7 @@ status collapsed
  Hay cuatro casos.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Caso 
 \begin_inset Formula $\varphi=(t\equiv s)$
 \end_inset
@@ -102635,7 +102701,7 @@ Caso
  terminos cerrados.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Ya que 
 \begin_inset Formula $\mathbf{\omega}\models\varphi$
 \end_inset
@@ -102668,7 +102734,7 @@ Ya que
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Caso 
 \begin_inset Formula $\varphi=(t\leq s)$
 \end_inset
@@ -102680,7 +102746,7 @@ Caso
  terminos cerrados.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Ya que 
 \begin_inset Formula $\mathbf{\omega}\models\varphi$
 \end_inset
@@ -102747,7 +102813,7 @@ es un axioma de
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Caso 
 \begin_inset Formula $\varphi=\lnot(t\equiv s)$
 \end_inset
@@ -102759,7 +102825,7 @@ Caso
  terminos cerrados.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Caso 
 \begin_inset Formula $\varphi=\lnot(t\leq s)$
 \end_inset
@@ -103696,6 +103762,7 @@ Para probar que el concepto de prueba ecuacional es correcto nos hara falta
  que
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -103762,7 +103829,8 @@ Teo
  
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Proof
 La prueba de Teo
 \begin_inset Formula $_{0}$
 \end_inset
@@ -103898,7 +103966,7 @@ lo cual prueba Teo
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Veamos que la regla de substitucion es universal.
  Supongamos 
 \begin_inset Formula $\mathbf{A}\models t\approx s$
@@ -104254,6 +104322,7 @@ Dados
 , sea
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -104288,7 +104357,8 @@ Teo
  
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Proof
 Veamos que es cierto Teo
 \begin_inset Formula $_{0}$
 \end_inset
@@ -104297,7 +104367,7 @@ Veamos que es cierto Teo
  Hay dos casos
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 \noindent
 Caso 
 \begin_inset Formula $t=_{d}t(x_{1},...,x_{n})=c\in\mathcal{C}$
@@ -104306,7 +104376,7 @@ Caso
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Entonces tenemos
 \begin_inset Formula 
 \[
@@ -104322,7 +104392,7 @@ t^{\mathbf{T}^{\tau}}[t_{1},...,t_{n}] & = & c^{\mathbf{T}^{\tau}}\\
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Caso 
 \begin_inset Formula $t=_{d}t(x_{1},...,x_{n})=x_{i}$
 \end_inset
@@ -104334,7 +104404,7 @@ Caso
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Entonces tenemos
 \begin_inset Formula 
 \[
@@ -104613,6 +104683,7 @@ Dejamos al lector probar que
  Veamos que
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -104638,7 +104709,8 @@ status collapsed
  
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Proof
 \noindent
 Por Corolario 
 \begin_inset CommandInset ref
@@ -104675,7 +104747,7 @@ noprefix "false"
  por lo cual (*) es verdadera.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Veamos que 
 \begin_inset Formula $\mathbf{T}^{\tau}/\theta\models\Sigma.$
 \end_inset
@@ -104744,7 +104816,7 @@ lo cual nos dice que
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Ya que 
 \begin_inset Formula $\mathbf{T}^{\tau}/\theta\models\Sigma$
 \end_inset
@@ -104803,7 +104875,7 @@ lo cual por (*) nos dice que
 \end_layout
 
 \begin_layout Corollary
- Sea 
+Sea 
 \begin_inset Formula $(\Sigma,\tau)$
 \end_inset
 
@@ -104818,10 +104890,6 @@ lo cual por (*) nos dice que
 
 .
  
-\end_layout
-
-\begin_layout Standard
-@@finpagina@@
 \end_layout
 
 \begin_layout Standard
@@ -105118,7 +105186,7 @@ Notese que los simbolos del alfabeto
 -recursivos.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 A continuacion daremos una prueba de que dichos conjuntos son en realidad
  
 \begin_inset Formula $\mathcal{A}$
@@ -105159,6 +105227,7 @@ A continuacion daremos una prueba de que dichos conjuntos son en realidad
  si y solo si se da alguna de las siguientes
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -105210,7 +105279,8 @@ status collapsed
  
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Proof
 Por el Lema 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -105327,6 +105397,7 @@ noprefix "false"
 -r.
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -105414,6 +105485,7 @@ en
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -105435,7 +105507,7 @@ en
 -recursivos.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 En realidad dichos predicados son 
 \begin_inset Formula $\mathcal{A}$
 \end_inset
@@ -105532,6 +105604,7 @@ Notese que
  y se da alguna de las siguientes:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -105626,7 +105699,8 @@ status collapsed
 \end_layout
 
 \end_deeper
-\begin_layout Standard
+\end_deeper
+\begin_layout Proof
 \noindent
 Es decir que por el Lema 
 \begin_inset CommandInset ref
@@ -105772,7 +105846,7 @@ Dados
 -recursivas.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 En realidad son 
 \begin_inset Formula $\mathcal{A}$
 \end_inset
@@ -105822,6 +105896,7 @@ Sea
  si y solo si se da alguna de las siguientes
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -105907,7 +105982,8 @@ status collapsed
  
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Proof
 \noindent
 Sea 
 \begin_inset Formula $\bar{P}=P\cup C_{0}^{2,2}|_{\{0\}\times\omega\times Var\times T^{\tau_{A}^{e}}\times\mathcal{A}^{\ast}}$
@@ -106048,7 +106124,7 @@ es
 -recursivo.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 En realidad 
 \begin_inset Formula $R$
 \end_inset
@@ -106171,7 +106247,7 @@ En realidad
 \end_layout
 
 \begin_layout Proof
- Dejamos al lector una prueba via la Tesis de Church.
+Dejamos al lector una prueba via la Tesis de Church.
  En realidad dichos conjuntos son 
 \begin_inset Formula $\mathcal{A}$
 \end_inset
@@ -106215,6 +106291,7 @@ En realidad
  si y solo si
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -106306,7 +106383,8 @@ status collapsed
  
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Proof
 \noindent
 (
 \begin_inset Formula $R$
@@ -106352,7 +106430,7 @@ noprefix "false"
 \end_layout
 
 \begin_layout Lemma
- El predicado 
+El predicado 
 \begin_inset Formula $"\psi$
 \end_inset
 
@@ -106393,7 +106471,7 @@ noprefix "false"
 -r.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Para probar que en realidad dicho predicado es 
 \begin_inset Formula $\mathcal{A}$
 \end_inset
@@ -106421,6 +106499,7 @@ Para probar que en realidad dicho predicado es
  tales que
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -106476,6 +106555,7 @@ status collapsed
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -106533,7 +106613,7 @@ status collapsed
 -r.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Dejamos al lector probar que en realidad dicho predicado es 
 \begin_inset Formula $\mathcal{A}$
 \end_inset
@@ -106595,7 +106675,7 @@ AxLog^{\tau_{A}^{e}}=\{\varphi\in S^{\tau_{A}^{e}}:\varphi\text{ es un axioma lo
 -r.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Dejamos al lector probar que en realidad dicho conjunto es 
 \begin_inset Formula $\mathcal{A}$
 \end_inset
@@ -106623,7 +106703,7 @@ noprefix "false"
 ) 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -106703,7 +106783,7 @@ noprefix "false"
 -recursivo.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Ya que 
 \begin_inset Formula $\alpha\in S^{+}$
 \end_inset
@@ -106823,7 +106903,7 @@ son
 -r.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Dejamos al lector probar que en realidad dicho conjunto es 
 \begin_inset Formula $\mathcal{A}$
 \end_inset
@@ -107350,11 +107430,11 @@ Ax((\mathbf{\varphi},\mathbf{J}))=\{\mathbf{\varphi}_{i}:\text{existe }\alpha\te
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Etapa 1
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 \noindent
 Si 
 \begin_inset Formula $x=0$
@@ -107368,11 +107448,11 @@ Si
  En caso contrario ir a Etapa 2
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Etapa 2.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 \noindent
 Si 
 \begin_inset Formula $(\ast^{\leq}((x)_{1}),\ast^{\leq}((x)_{2}))$
@@ -107394,7 +107474,7 @@ Si
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Por la Tesis de Church tenemos entonces que 
 \begin_inset Formula $Pruebas_{(\Sigma,\tau_{A})}$
 \end_inset
@@ -107505,7 +107585,7 @@ Si
 -r.e.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 A continuacion daremos una prueba que no usa la Tesis de Church.
  Ya que 
 \begin_inset Formula $Pruebas_{(\Sigma,\tau_{A})}$
@@ -107980,6 +108060,7 @@ coprimos
  Usaremos en esta prueba el Teorema Chino del Resto:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -108013,7 +108094,8 @@ Dados
  
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Proof
 Sea 
 \begin_inset Formula $y=\max(z_{0},...,z_{n},n)!$
 \end_inset
@@ -108094,7 +108176,7 @@ Sea
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Por el Teorema Chino del Resto hay un 
 \begin_inset Formula $x$
 \end_inset
@@ -108163,7 +108245,7 @@ El lema anterior nos permite probar:
 \end_layout
 
 \begin_layout Proof
- Supongamos 
+Supongamos 
 \begin_inset Formula $f:S_{1}\times...\times S_{n}\rightarrow\omega$
 \end_inset
 
@@ -108192,6 +108274,7 @@ El lema anterior nos permite probar:
 , las siguientes son equivalentes
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -108263,7 +108346,8 @@ Hay
 
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Proof
 \noindent
 Sean 
 \begin_inset Formula $\varphi_{\beta}$
@@ -108337,6 +108421,7 @@ respectivamente.
  la siguiente formula
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -108388,7 +108473,8 @@ status collapsed
  
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Proof
 \noindent
 Es facil usando (3) ver que la formula 
 \begin_inset Formula $\varphi_{R(f,g)}$
@@ -108405,7 +108491,7 @@ Es facil usando (3) ver que la formula
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 En forma analoga se puede probar que las reglas de composicion y minimizacion
  preservan representabilidad por lo cual ya que los elementos de 
 \begin_inset Formula $\mathrm{R}_{0}^{\emptyset}$
@@ -108419,7 +108505,7 @@ En forma analoga se puede probar que las reglas de composicion y minimizacion
  
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -109081,10 +109167,6 @@ Si
 \end_inset
 
  
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \begin_layout Proof
