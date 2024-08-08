@@ -20222,7 +20222,7 @@ Por supuesto esta definicion no tendria sentido como modelo matematico del
 \end_layout
 
 \begin_layout Proof
- Haremos el caso 
+Haremos el caso 
 \begin_inset Formula $O=\Sigma^{\ast}$
 \end_inset
 
@@ -20234,7 +20234,7 @@ Por supuesto esta definicion no tendria sentido como modelo matematico del
  el siguiente procedimiento efectivo.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 - Conjunto de datos de entrada de 
 \begin_inset Formula $\mathbb{P}$
 \end_inset
@@ -20246,7 +20246,7 @@ Por supuesto esta definicion no tendria sentido como modelo matematico del
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 - Conjunto de datos de salida de 
 \begin_inset Formula $\mathbb{P}$
 \end_inset
@@ -20258,7 +20258,7 @@ Por supuesto esta definicion no tendria sentido como modelo matematico del
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 - Funcionamiento: Hacer funcionar paso a paso la maquina 
 \begin_inset Formula $M$
 \end_inset
@@ -20276,7 +20276,7 @@ Por supuesto esta definicion no tendria sentido como modelo matematico del
  final los dos primeros simbolos.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Notese que este procedimiento termina solo en aquelos elementos 
 \begin_inset Formula $(\vec{x},\vec{\sigma})\in\omega^{n}\times\Sigma^{\ast}{}^{m}$
 \end_inset
@@ -20662,7 +20662,7 @@ Para cada
 \end_layout
 
 \begin_layout Proof
- Queda como ejercicio ver como construir la maquina 
+Queda como ejercicio ver como construir la maquina 
 \begin_inset Formula $M$
 \end_inset
 
@@ -21050,7 +21050,7 @@ s el siguiente lema.
 \end_layout
 
 \begin_layout Lemma
- Supongamos que 
+Supongamos que 
 \begin_inset Formula $f,f_{1},...,f_{r}$
 \end_inset
 
@@ -21079,6 +21079,7 @@ s el siguiente lema.
  tales que
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -21188,6 +21189,7 @@ f\circ[f_{1},...,f_{n+m}](\vec{x},\vec{\alpha}) & =f(f_{1}(\vec{x},\vec{\alpha})
 
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -21197,7 +21199,7 @@ f\circ[f_{1},...,f_{n+m}](\vec{x},\vec{\alpha}) & =f(f_{1}(\vec{x},\vec{\alpha})
 \end_layout
 
 \begin_layout Proof
- Notese que 
+Notese que 
 \begin_inset Formula $f\neq\emptyset$
 \end_inset
 
@@ -21238,6 +21240,7 @@ f\circ[f_{1},...,f_{n+m}](\vec{x},\vec{\alpha}) & =f(f_{1}(\vec{x},\vec{\alpha})
 , tenemos que
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -21350,6 +21353,7 @@ Las ultimas observaciones del lema son directas de las definiciones de
  y de composicion de funciones 
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset VSpace bigskip
 \end_inset
@@ -21392,7 +21396,7 @@ Ahora si podemos probar facilmente que el contructor composicion preserva
 \end_layout
 
 \begin_layout Proof
- Si 
+Si 
 \begin_inset Formula $f\circ[f_{1},...,f_{r}]=\emptyset$
 \end_inset
 
@@ -21417,6 +21421,7 @@ Ahora si podemos probar facilmente que el contructor composicion preserva
  tales que
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -21524,6 +21529,7 @@ Sean
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset VSpace bigskip
 \end_inset
@@ -23705,7 +23711,7 @@ recursiva primitiva
 \end_layout
 
 \begin_layout Proof
- Dejamos al lector la prueba por induccion en 
+Dejamos al lector la prueba por induccion en 
 \begin_inset Formula $k$
 \end_inset
 
@@ -23762,6 +23768,7 @@ En los siguientes cuatro lemas se prueba bien formalmente que varias funciones
  un alfabeto finito.
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -23831,6 +23838,7 @@ status collapsed
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -23847,7 +23855,7 @@ status collapsed
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (2) Notar que
 \begin_inset Formula 
 \begin{align*}
@@ -23865,7 +23873,7 @@ lo cual implica que
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (3) Primero note que
 \begin_inset Formula 
 \begin{align*}
@@ -23894,7 +23902,7 @@ lo cual por (2) implica que
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (4) Note que
 \begin_inset Formula 
 \begin{align*}
@@ -23965,6 +23973,7 @@ Ahora consideraremos dos funciones las cuales son obtenidas naturalmente
  es un alfabeto finito.
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -23999,6 +24008,7 @@ status collapsed
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -24032,7 +24042,7 @@ tenemos que
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (b) Ya que
 \begin_inset Formula 
 \begin{align*}
@@ -24100,7 +24110,7 @@ tenemos que
 \end_layout
 
 \begin_layout Proof
- (a) Note que 
+(a) Note que 
 \begin_inset Formula $C_{k+1}^{0,0}=$
 \end_inset
 
@@ -24207,6 +24217,7 @@ de lo cual obtenemos que
  un alfabeto finito.
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -24242,6 +24253,7 @@ status collapsed
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -24266,7 +24278,7 @@ O sea que
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (b) Note que
 \begin_inset Formula 
 \[
@@ -24480,6 +24492,7 @@ x\dot{-}y=\max(x-y,0).
 
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -24565,6 +24578,7 @@ status collapsed
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -24593,7 +24607,7 @@ O sea que
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (b) Note que 
 \begin_inset Formula $\lambda xy\left[\max(x,y)\right]=\lambda xy\left[x+(y\dot{-}x)\right]$
 \end_inset
@@ -24601,7 +24615,7 @@ O sea que
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (c) Note que 
 \begin_inset Formula $\lambda xy\left[x=y\right]=\lambda xy\left[1\dot{-}((x\dot{-}y)+(y\dot{-}x))\right]$
 \end_inset
@@ -24609,7 +24623,7 @@ O sea que
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (d) Note que 
 \begin_inset Formula $\lambda xy\left[x\leq y\right]=\lambda xy\left[1\dot{-}(x\dot{-}y)\right]$
 \end_inset
@@ -24617,7 +24631,7 @@ O sea que
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (e) Sea 
 \begin_inset Formula $\leq$
 \end_inset
@@ -24836,7 +24850,6 @@ Un conjunto
 \end_layout
 
 \begin_layout Lemma
- 
 \begin_inset CommandInset label
 LatexCommand label
 name "union"
@@ -24872,7 +24885,7 @@ Si
 \end_layout
 
 \begin_layout Proof
- Note que
+Note que
 \begin_inset Formula 
 \begin{align*}
 \chi_{S_{1}\cup S_{2}}^{\omega^{n}\times\Sigma^{\ast m}} & =(\chi_{S_{1}}^{\omega^{n}\times\Sigma^{\ast m}}\vee\chi_{S_{2}}^{\omega^{n}\times\Sigma^{\ast m}})\\
@@ -24922,7 +24935,7 @@ Si
 \end_layout
 
 \begin_layout Proof
- Si 
+Si 
 \begin_inset Formula $S=\emptyset$
 \end_inset
 
@@ -25089,7 +25102,7 @@ Supongamos
 \end_layout
 
 \begin_layout Proof
- (
+(
 \begin_inset Formula $\Rightarrow$
 \end_inset
 
@@ -25466,10 +25479,6 @@ Sean
 Ahora podemos probar el siguiente importante resultado
 \end_layout
 
-\begin_layout Standard
-
-\end_layout
-
 \begin_layout Proposition
  
 \begin_inset CommandInset label
@@ -25514,7 +25523,7 @@ Un conjunto
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (
 \begin_inset Formula $\Rightarrow$
 \end_inset
@@ -25526,7 +25535,7 @@ Un conjunto
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (
 \begin_inset Formula $\Leftarrow$
 \end_inset
@@ -25671,11 +25680,11 @@ noprefix "false"
 -p.r..
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Los otros casos de recursion primitiva son dejados al lector.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Supongamos ahora que 
 \begin_inset Formula $F=g\circ[g_{1},...,g_{r}]$
 \end_inset
@@ -25924,7 +25933,7 @@ Sean
 \end_layout
 
 \begin_layout Proof
- Supongamos 
+Supongamos 
 \begin_inset Formula $O=\Sigma^{\ast}$
 \end_inset
 
@@ -26014,7 +26023,7 @@ tenemos que
 -p.r..
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 El caso 
 \begin_inset Formula $k>2$
 \end_inset
@@ -26072,7 +26081,7 @@ Supongamos
 \end_layout
 
 \begin_layout Proof
- Supongamos 
+Supongamos 
 \begin_inset Formula $f:D_{f}\subseteq\omega^{n}\times\Sigma^{\ast m}\rightarrow O$
 \end_inset
 
@@ -26390,6 +26399,7 @@ Sea
  un alfabeto finito.
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -26469,6 +26479,7 @@ Si
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -27080,7 +27091,6 @@ Cabe destacar que
 \end_layout
 
 \begin_layout Lemma
- 
 \begin_inset CommandInset label
 LatexCommand label
 name "cuantificacion"
@@ -27094,6 +27104,7 @@ Sea
  un alfabeto finito.
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -27197,6 +27208,7 @@ Sea
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -27257,7 +27269,7 @@ noprefix "false"
 -p.r..
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Ya que
 \begin_inset Formula 
 \[
@@ -27277,7 +27289,7 @@ tenemos que
 -p.r.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (b) Haremos solo el caso del cuantificador 
 \begin_inset Formula $\forall$
 \end_inset
@@ -27330,7 +27342,7 @@ por lo cual es
 -p.r.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Si 
 \begin_inset Formula $\bar{L}=\{\varepsilon\}$
 \end_inset
@@ -27351,7 +27363,7 @@ por lo cual es
 -p.r.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Ahora supongamos 
 \begin_inset Formula $\Sigma$
 \end_inset
@@ -27377,7 +27389,7 @@ Ahora supongamos
  Primero notese que
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Proof
 \begin_inset Argument item:1
 status collapsed
 
@@ -27406,7 +27418,7 @@ status collapsed
  
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (queda como ejercicio probar (*).
  Sean
 \begin_inset Formula 
@@ -27580,6 +27592,7 @@ Algunos ejemplos en los cuales cuantificacion acotada se aplica naturalmente
  un alfabeto finito.
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -27644,6 +27657,7 @@ El predicado
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -27720,7 +27734,7 @@ por lo cual
 -p.r.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (b) Ya que
 \begin_inset Formula 
 \[
@@ -27732,7 +27746,7 @@ x\text{ es primo sii }x>1\wedge\left((\forall t\in\omega)_{t\leq x}\;t=1\vee t=x
 podemos usar un argumento similar al de la prueba de (a).
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (c) es dejado al lector.
  
 \end_layout
@@ -28594,6 +28608,7 @@ Sean
  Entonces
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -28654,6 +28669,7 @@ entonces
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -28710,7 +28726,7 @@ Esto claramente dice que
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Veremos entonces que 
 \begin_inset Formula $M(\bar{P})$
 \end_inset
@@ -28752,7 +28768,7 @@ Veremos entonces que
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (b) Ya que 
 \begin_inset Formula $M(P)=M(\bar{P})$
 \end_inset
@@ -28817,7 +28833,7 @@ noprefix "false"
  lo es.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Sea
 \begin_inset Formula 
 \[
@@ -29027,6 +29043,7 @@ Sea
 -p.r.:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -29087,6 +29104,7 @@ n & \rightarrow & n\text{-esimo numero primo}
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -29139,7 +29157,7 @@ noprefix "false"
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (b) Notese que
 \begin_inset Formula 
 \[
@@ -29155,7 +29173,7 @@ y por lo tanto
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (c) Para ver que 
 \begin_inset Formula $pr$
 \end_inset
@@ -29451,7 +29469,7 @@ noprefix "false"
 -p.r..
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Veamos que 
 \begin_inset Formula $\lambda x\left[Lt(x)\right]$
 \end_inset
@@ -29588,7 +29606,7 @@ Sea
 \end_layout
 
 \begin_layout Proof
- Sea 
+Sea 
 \begin_inset Formula $f_{n}=\lambda x_{1}...x_{n}\left[\left\langle x_{1},...,x_{n}\right\rangle \right]$
 \end_inset
 
@@ -29912,6 +29930,7 @@ Supongamos que
  Entonces
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -29972,6 +29991,7 @@ entonces
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -30015,7 +30035,7 @@ noprefix "false"
 -recursiva.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Sea 
 \begin_inset Formula $k$
 \end_inset
@@ -30625,10 +30645,6 @@ tenemos que cada
 
 \end_layout
 
-\begin_layout Standard
-
-\end_layout
-
 \begin_layout Lemma
  
 \begin_inset CommandInset label
@@ -30683,7 +30699,7 @@ Supongamos
 \end_layout
 
 \begin_layout Proof
- Completamente analoga a la del caso primitivo recursivo.
+Completamente analoga a la del caso primitivo recursivo.
  
 \end_layout
 
@@ -30770,7 +30786,7 @@ Es claro que cada
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Para 
 \begin_inset Formula $i=1,...,n$
 \end_inset
@@ -30905,7 +30921,7 @@ Deberia quedar claro que si el modelo de Godel es correcto, entonces todos
 \end_layout
 
 \begin_layout Theorem
- Sea 
+Sea 
 \begin_inset Formula $S\subseteq\omega^{n}\times\Sigma^{\ast m}$
 \end_inset
 
@@ -30913,6 +30929,7 @@ Deberia quedar claro que si el modelo de Godel es correcto, entonces todos
  Son equivalentes
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -30959,6 +30976,7 @@ status collapsed
 -efectivamente enumerables 
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -31092,7 +31110,6 @@ h^{\downarrow}(x,\vec{x},\vec{\alpha}) & =\left\langle h(0,\vec{x},\vec{\alpha})
 \end_layout
 
 \begin_layout Lemma
- 
 \begin_inset CommandInset label
 LatexCommand label
 name "f-flecha"
@@ -31426,6 +31443,7 @@ Supongamos
 .
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -31501,6 +31519,7 @@ Si
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -31630,7 +31649,7 @@ Pero es claro que
 -p.r..
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Para ver que 
 \begin_inset Formula $\#^{\leq}:\Sigma^{\ast}\rightarrow\omega$
 \end_inset
@@ -31668,7 +31687,7 @@ Ya que
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (b) El caso 
 \begin_inset Formula $\Sigma=\emptyset$
 \end_inset
@@ -31826,7 +31845,7 @@ noprefix "false"
  Hay varios casos:
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Caso 
 \begin_inset Formula $F=R(f,\mathcal{G})$
 \end_inset
@@ -31915,7 +31934,7 @@ tenemos que
 -recursiva
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Caso 
 \begin_inset Formula $F=R(f,g)$
 \end_inset
@@ -32017,7 +32036,7 @@ funciones en
 -recursiva
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Caso 
 \begin_inset Formula $F=M(P)$
 \end_inset
@@ -32113,12 +32132,12 @@ Tambien
  lo es
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Los otros casos de recursion primitiva son parecidos a los hechos y el caso
  de la composicion es trivial.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 La prueba de que 
 \begin_inset Formula $\mathrm{PR}^{\emptyset}\subseteq\mathrm{PR}^{\Sigma}$
 \end_inset
@@ -32204,6 +32223,7 @@ f^{\#^{\leq}}=\#^{\leq}\circ f\circ\left[p_{1}^{n+m,0},...,p_{n}^{n+m,0},\ast^{\
 -mixta, son equivalentes
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -32256,6 +32276,7 @@ status collapsed
 -p.r.) 
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -32360,7 +32381,7 @@ h=\ast^{\leq}\circ h^{\#^{\leq}}\circ\left[p_{1}^{n,m},...,p_{n}^{n,m},\#^{\leq}
 -p.r.).
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (1)
 \begin_inset Formula $\Rightarrow$
 \end_inset
@@ -32404,7 +32425,7 @@ h=\ast^{\leq}\circ h^{\#^{\leq}}\circ\left[p_{1}^{n,m},...,p_{n}^{n,m},\#^{\leq}
  que
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Proof
 \begin_inset Argument item:1
 status collapsed
 
@@ -32440,7 +32461,7 @@ Si
  
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 \noindent
 El caso 
 \begin_inset Formula $k=0$
@@ -32470,7 +32491,7 @@ El caso
  Hay varios casos
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Caso 1.
  Supongamos 
 \begin_inset Formula $h=f\circ[f_{1},...,f_{n}]$
@@ -32520,7 +32541,7 @@ Caso 1.
 -p.r.).
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Caso 2.
  Supongamos 
 \begin_inset Formula $h=M(P)$
@@ -32550,7 +32571,7 @@ Caso 2.
 -recursiva.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Caso 3.
  Supongamos 
 \begin_inset Formula $h=R(f,\mathcal{G})$
@@ -32697,7 +32718,7 @@ y ya que
 , tenemos que
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Proof
 \begin_inset Argument item:1
 status collapsed
 
@@ -32718,7 +32739,7 @@ status collapsed
  
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 A continuacion aplicaremos la idea del Lema 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -32742,7 +32763,7 @@ noprefix "false"
  componiendolas adecuadamente y seria muy engorroso notacionalmente.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Definamos
 \begin_inset Formula 
 \[
@@ -32892,6 +32913,7 @@ Sean
  alfabetos cualesquiera.
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -33003,6 +33025,7 @@ Supongamos un conjunto
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -34336,6 +34359,7 @@ Un importante resultado es el siguiente lema que garantiza que los programas
  Se tiene que:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -34394,6 +34418,7 @@ Si
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -40014,7 +40039,7 @@ donde se supone que las expansiones de los macros usados son hechas usando
  (por que?).
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Sea 
 \begin_inset Formula $k$
 \end_inset
@@ -40047,7 +40072,7 @@ Dejamos al lector corroborar que el programa
  cumple las propiedades a y b
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (2)
 \begin_inset Formula $\Rightarrow$
 \end_inset
@@ -40056,7 +40081,7 @@ Dejamos al lector corroborar que el programa
  Directo.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (3)
 \begin_inset Formula $\Rightarrow$
 \end_inset
@@ -40585,7 +40610,7 @@ computable.
  que
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Proof
 \begin_inset Argument item:1
 status collapsed
 
@@ -40615,7 +40640,7 @@ computable.
  
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 \noindent
 El caso 
 \begin_inset Formula $k=0$
@@ -40638,7 +40663,7 @@ El caso
  Hay varios casos
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Caso 1.
  Supongamos 
 \begin_inset Formula $h=M(P)$
@@ -40693,7 +40718,7 @@ Es facil chequear que este programa computa
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Caso 2.
  Supongamos 
 \begin_inset Formula $h=R(f,\mathcal{G})$
@@ -40769,7 +40794,7 @@ Es facil chequear que este programa computa
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 El resto de los casos son dejados al lector.
  
 \end_layout
@@ -40779,7 +40804,6 @@ El resto de los casos son dejados al lector.
 \end_layout
 
 \begin_layout Corollary
- 
 \begin_inset CommandInset label
 LatexCommand label
 name "recursivo implica macro"
@@ -40934,7 +40958,7 @@ a.
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 La idea de la prueba es la misma que la que usamos para probar que la union
  de conjuntos 
 \begin_inset Formula $\Sigma$
@@ -41602,7 +41626,7 @@ lo cual nos dice que
 -p.r..
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Notese que
 \begin_inset Formula 
 \[
@@ -41700,7 +41724,7 @@ noprefix "false"
 -p.r..
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 En forma similar podemos probar que 
 \begin_inset Formula $L_{1},...,L_{14}$
 \end_inset
@@ -41783,10 +41807,6 @@ noprefix "false"
 
 -p.r..
  
-\end_layout
-
-\begin_layout Standard
-@@finpagina@@
 \end_layout
 
 \begin_layout Standard
@@ -41910,7 +41930,7 @@ Note que
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Finalmente note que
 \begin_inset Formula 
 \[
@@ -42008,6 +42028,7 @@ name "Pro-es-pr"
 
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -42055,6 +42076,7 @@ status collapsed
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -42085,14 +42107,14 @@ status collapsed
  el siguiente predicado
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 \begin_inset Formula $\lambda x\left[Lt(x)>0\wedge(\forall t\in\mathbf{N})_{t\leq Lt(x)}\;\ast^{\leq}((x)_{t})\in\mathrm{Ins}^{\Sigma}\wedge\right.$
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 \begin_inset Formula $\ \ \ \ \ \ \ \ \ \ \ \ (\forall t\in\mathbf{N})_{t\leq Lt(x)}(\forall m\in\mathbf{N})\;\lnot(\mathrm{L}\bar{m}\ $
 \end_inset
 
@@ -42103,14 +42125,14 @@ t-final
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 \begin_inset Formula $\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \left.(\exists j\in\mathbf{N})_{j\leq Lt(x)}(\exists\alpha\in(\Sigma\cup\Sigma_{p})-Num)\;\mathrm{L}\bar{m}\alpha\ \text{t-inicial}\ast^{\leq}((x)_{j})\right]$
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 \noindent
 Notese que 
 \begin_inset Formula $D_{P}=\mathbf{N}$
@@ -42891,7 +42913,7 @@ es
 -p.r.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Dado 
 \begin_inset Formula $(i,x,y,\mathcal{P})\in\omega\times\mathbf{N}\times\mathbf{N}\times\mathrm{Pro}^{\Sigma}$
 \end_inset
@@ -42907,6 +42929,7 @@ Dado
  pueden ser obtenidos usando las funciones antes definidas:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -43335,7 +43358,8 @@ S_{\ast}(i,x,y,\mathcal{P}) & =y
 
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Proof
 O sea que los casos anteriores nos permiten definir conjuntos 
 \begin_inset Formula $S_{1},...,S_{15}$
 \end_inset
@@ -43579,14 +43603,6 @@ g & =\lambda At\vec{x}\vec{\alpha}\left[\left\langle g_{1}((A)_{1},(A)_{2},t,\ve
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
-@@finpagina@@
 \end_layout
 
 \begin_layout Standard
@@ -44557,7 +44573,7 @@ Ya que
  lo es.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Supongamos ahora que para algunos 
 \begin_inset Formula $k,l\in\omega$
 \end_inset
@@ -44654,7 +44670,7 @@ noprefix "false"
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Ahora supongamos que hay 
 \begin_inset Formula $n,m\in\omega$
 \end_inset
@@ -44704,10 +44720,6 @@ Pero entonces ya que
 
 -p.r..
  
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \begin_layout Corollary
@@ -45932,6 +45944,7 @@ Primero probaremos algunos lemas basicos.
  Entonces
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -45975,6 +45988,7 @@ status collapsed
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -46514,10 +46528,6 @@ O sea que, por el lema de cuantificacion acotada, tenemos que el predicado
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-@@finpagina@@
 \end_layout
 
 \begin_layout Standard
@@ -48556,6 +48566,7 @@ Sea
  la cual satisface
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -48671,6 +48682,7 @@ entonces
 
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -48739,6 +48751,7 @@ Si
  y el cual cumple con las siguientes propiedades
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -48795,6 +48808,7 @@ Cuando
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -48998,11 +49012,11 @@ noprefix "false"
  la siguiente maquina:
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 @@figura:figure9.png@@
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 \noindent
 (Cuando 
 \begin_inset Formula $n=0$
@@ -49044,11 +49058,11 @@ Sea
  la siguiente maquina
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 @@figura:figure10.png@@
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 \noindent
 Notese que 
 \begin_inset Formula $M_{2}$
@@ -49073,11 +49087,11 @@ Sea
  la siguiente maquina:
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 @@figura:figure11.png@@
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 \noindent
 A continuacion veremos que 
 \begin_inset Formula $M$
@@ -49100,7 +49114,7 @@ A continuacion veremos que
  no termina partiendo de
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Proof
 \begin_inset Argument item:1
 status collapsed
 
@@ -49117,7 +49131,7 @@ status collapsed
  
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Primero notemos que, ya que 
 \begin_inset Formula $\mathcal{P}$
 \end_inset
@@ -49159,7 +49173,7 @@ noprefix "false"
 ) que
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Proof
 \begin_inset Argument item:1
 status collapsed
 
@@ -49180,7 +49194,7 @@ status collapsed
  
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Ahora notese que si hacemos funcionar a 
 \begin_inset Formula $M$
 \end_inset
@@ -49225,7 +49239,7 @@ Luego entonces (**) nos dice que al seguir trabajando
  nunca terminara.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Para terminar de ver que 
 \begin_inset Formula $M$
 \end_inset
@@ -49335,6 +49349,7 @@ noprefix "false"
  nos dice que
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -49352,7 +49367,8 @@ status collapsed
  
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Proof
 Como ya lo vimos, si hacemos funcionar a 
 \begin_inset Formula $M$
 \end_inset
@@ -49450,6 +49466,7 @@ En virtud de los teoremas ya probados tenemos el siguiente teorema que asegura
 , las siguientes son equivalentes:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -49513,6 +49530,7 @@ status collapsed
 -computable 
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -49599,6 +49617,7 @@ Tambien los tres paradigmas son equivalentes con respecto a los dos tipos
  Las siguientes son equivalentes:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -49662,6 +49681,7 @@ status collapsed
 -enumerable 
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -49692,6 +49712,7 @@ status collapsed
  Las siguientes son equivalentes:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -49755,6 +49776,7 @@ status collapsed
 -computable 
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -50433,6 +50455,7 @@ Supongamos
  Entonces
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -50476,6 +50499,7 @@ status collapsed
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -50759,6 +50783,7 @@ Sea
  Son equivalentes
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -50805,6 +50830,7 @@ status collapsed
 -recursivamente enumerables 
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -50983,7 +51009,7 @@ Notese que
 -recursivamente enumerable.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (b)
 \begin_inset Formula $\Rightarrow$
 \end_inset
@@ -51396,6 +51422,7 @@ Dado
 , son equivalentes
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -51505,6 +51532,7 @@ status collapsed
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -51526,7 +51554,7 @@ status collapsed
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (2)
 \begin_inset Formula $\Rightarrow$
 \end_inset
@@ -51843,7 +51871,7 @@ Dejamos al lector la tarea de comprender el funcionamiento de este programa
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (3)
 \begin_inset Formula $\Rightarrow$
 \end_inset
@@ -53061,6 +53089,7 @@ Sea
 Note que
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -53086,7 +53115,8 @@ status collapsed
 , 
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Proof
 \noindent
 lo cual produce una contradiccion si tomamos en (*) 
 \begin_inset Formula $\mathcal{P}=\mathcal{P}_{0}$
@@ -53328,7 +53358,7 @@ no es
 -r.e..
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Supongamos ahora que 
 \begin_inset Formula $N$
 \end_inset
@@ -53417,7 +53447,7 @@ noprefix "false"
 -r.e..
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Finalmente supongamos 
 \begin_inset Formula $A$
 \end_inset
@@ -53657,7 +53687,7 @@ Supongamos que
 \end_layout
 
 \begin_layout Proof
- Notese que 
+Notese que 
 \begin_inset Formula $D_{M(P)}=\mathrm{Pro}^{\Sigma}$
 \end_inset
 
@@ -56255,6 +56285,7 @@ posets.
 .
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -56493,6 +56524,7 @@ Para
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -56609,7 +56641,7 @@ Para
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Supongamos ahora que 
 \begin_inset Formula $F(a)$
 \end_inset
@@ -56691,7 +56723,7 @@ Supongamos ahora que
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Ya que 
 \begin_inset Formula $a$
 \end_inset
@@ -56719,7 +56751,7 @@ Ya que
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (e) Supongamos que 
 \begin_inset Formula $a$
 \end_inset
@@ -56794,7 +56826,7 @@ Ya que
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (f) Supongamos existe 
 \begin_inset Formula $\sup(S)$
 \end_inset
@@ -56859,7 +56891,7 @@ Ya que
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Las pruebas faltantes son dejadas como ejercicio.
  
 \end_layout
@@ -57211,6 +57243,7 @@ Dado un reticulado
  se cumplen las siguientes.
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -57345,6 +57378,7 @@ status collapsed
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -57517,6 +57551,7 @@ Dado un reticulado
  se tiene que:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -57567,6 +57602,7 @@ status collapsed
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -57610,6 +57646,7 @@ Dado un reticulado
 , se tiene que:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -57652,6 +57689,7 @@ status collapsed
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -57955,6 +57993,7 @@ Dado un reticulado
 , se tiene que:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -57997,6 +58036,7 @@ status collapsed
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -58064,7 +58104,7 @@ por lo cual solo resta usar que
  La tercera es completamente analoga a la segunda.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 En forma similar se prueba que 
 \begin_inset Formula $a\;\mathsf{s}\;(b\;\mathsf{s}\;c)\leq(a\;\mathsf{s}\;b)\;\mathsf{s}\;c$
 \end_inset
@@ -58082,7 +58122,7 @@ En forma similar se prueba que
  eran elementos arbitrarios hemos probado que vale (1).
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (2) es dejada como ejercicio.
  
 \end_layout
@@ -58133,6 +58173,7 @@ Dado un reticulado
 , se tiene que:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -58191,6 +58232,7 @@ status collapsed
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -58265,7 +58307,7 @@ Ya que
  eran elementos arbitrarios hemos probado que vale (1).
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (2) es dejada al lector 
 \end_layout
 
@@ -58295,6 +58337,7 @@ Dado un reticulado
 , se tiene que:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -58316,6 +58359,7 @@ status collapsed
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -58402,7 +58446,7 @@ cualesquiera sean los elementos
 \end_layout
 
 \begin_layout Proof
- Por induccion en 
+Por induccion en 
 \begin_inset Formula $n$
 \end_inset
 
@@ -58429,6 +58473,7 @@ cualesquiera sean los elementos
  Por hipotesis inductiva tenemos que
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -58446,11 +58491,13 @@ status collapsed
  
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Proof
 \noindent
 Veamos entonces que
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -58468,7 +58515,8 @@ status collapsed
  
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Proof
 \noindent
 Usando (1), es facil ver que 
 \begin_inset Formula $((...(a_{1}\;\mathsf{s\;}a_{2})\;\mathsf{s\;}...)\;\mathsf{s\;}a_{n})\;\mathsf{s\;}a_{n+1}$
@@ -59177,7 +59225,7 @@ Estas igualdades se pueden probar usando (I1), (I2) y (I4).
  Dejamos al lector hacerlo como ejercicio.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Nos falta ver entonces que 
 \begin_inset Formula $x\;\mathsf{s\;}y$
 \end_inset
@@ -59225,7 +59273,7 @@ por lo que
  es la menor cota superior.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Para probar que 
 \begin_inset Formula $\inf(\{x,y\})=x\mathsf{\;i\;}y$
 \end_inset
@@ -60449,7 +60497,7 @@ F^{-1}(F(x)\;\mathsf{s}^{\prime}\ F(y))=F^{-1}(F(x\mathsf{\;s\;}y))=x\mathsf{\;s
 \end_layout
 
 \begin_layout Proof
- Ya que 
+Ya que 
 \begin_inset Formula $L$
 \end_inset
 
@@ -60568,7 +60616,7 @@ por lo cual
 \end_layout
 
 \begin_layout Proof
- Supongamos 
+Supongamos 
 \begin_inset Formula $F$
 \end_inset
 
@@ -60982,7 +61030,7 @@ sobre
 \end_layout
 
 \begin_layout Lemma
- Sea 
+Sea 
 \begin_inset Formula $(L,\mathsf{s},\mathsf{i})$
 \end_inset
 
@@ -61008,7 +61056,7 @@ sobre
 \end_layout
 
 \begin_layout Proof
- Veamos que la estructura 
+Veamos que la estructura 
 \begin_inset Formula $(L/\theta,\mathsf{\tilde{s}},\mathsf{\tilde{\imath}})$
 \end_inset
 
@@ -62184,6 +62232,7 @@ Sea
 .
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -62231,10 +62280,7 @@ status collapsed
  
 \end_layout
 
-\begin_layout Standard
-
-\end_layout
-
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -63229,6 +63275,7 @@ sobre
 .
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -63276,6 +63323,7 @@ status collapsed
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -63343,7 +63391,7 @@ status collapsed
  sarisface la identidad (I11)
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (b) Por el Lema 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -63422,7 +63470,7 @@ noprefix "false"
 \end_layout
 
 \begin_layout Proof
- Ya que 
+Ya que 
 \begin_inset Formula $F$
 \end_inset
 
@@ -63994,6 +64042,7 @@ Ya que
  Se tiene que:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -64087,6 +64136,7 @@ status collapsed
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -64139,11 +64189,11 @@ noprefix "false"
  deben ser iguales.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (2) y (3) se prueban en forma similar (hacer!)
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (4) Supongamos 
 \begin_inset Formula $a\,\mathsf{i\,}b=0$
 \end_inset
@@ -64181,7 +64231,7 @@ lo cual dice que
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (5) Supongamos 
 \begin_inset Formula $a\leq b$
 \end_inset
@@ -65487,6 +65537,7 @@ Se tiene entonces que
  las siguientes son equivalentes:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -65530,6 +65581,7 @@ status collapsed
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -65555,7 +65607,7 @@ status collapsed
  es primo.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (2)
 \begin_inset Formula $\Rightarrow$
 \end_inset
@@ -65849,6 +65901,7 @@ El siguiente teorema sera clave en nuestra prueba del teorema de completitud
  el cual cumple:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -65887,6 +65940,7 @@ status collapsed
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -65896,7 +65950,7 @@ status collapsed
 \end_layout
 
 \begin_layout Proof
- Sean 
+Sean 
 \begin_inset Formula $a_{j}=\inf(A_{j})$
 \end_inset
 
@@ -65916,6 +65970,7 @@ status collapsed
  tal que:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -65984,7 +66039,8 @@ status collapsed
  
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Proof
 \noindent
 Definamos 
 \begin_inset Formula $b_{0}=x$
@@ -66028,7 +66084,7 @@ Definamos
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Usando (2) se puede probar que el conjunto 
 \begin_inset Formula $S=\{b_{0},b_{1},...\}$
 \end_inset
@@ -66055,25 +66111,26 @@ Usando (2) se puede probar que el conjunto
  
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 \begin_inset VSpace bigskip
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Cerramos la seccion con una convencion notacional que se usara mas que nada
  en los ejercicios y la tombola.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 \begin_inset VSpace bigskip
 \end_inset
 
 
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -66138,8 +66195,8 @@ status collapsed
  es una 5-upla.
 \end_layout
 
-\begin_deeper
-\begin_layout Standard
+\end_deeper
+\begin_layout Proof
 Tambien si 
 \begin_inset Formula $\mathbf{L}^{\prime}$
 \end_inset
@@ -66160,7 +66217,7 @@ Tambien si
  denotara su universo, etc.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Notese que entonces, si escribimos 
 \begin_inset ERT
 status collapsed
@@ -66236,7 +66293,7 @@ status collapsed
  no es un conjunto!
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Tambien notese que si 
 \begin_inset Formula $\mathbf{L}$
 \end_inset
@@ -66277,7 +66334,6 @@ Tambien notese que si
  
 \end_layout
 
-\end_deeper
 \begin_layout Standard
 \begin_inset VSpace bigskip
 \end_inset
