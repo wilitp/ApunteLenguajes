@@ -6567,7 +6567,7 @@ Dejamos al lector la facil prueba del siguiente resultado basico.
 \end_layout
 
 \begin_layout Lemma
- Supongamos 
+Supongamos 
 \begin_inset Formula $\Sigma\subseteq\Gamma$
 \end_inset
 
@@ -8067,7 +8067,7 @@ El concepto de conjunto rectangular es muy importante en nuestro enfoque.
 \end_layout
 
 \begin_layout Lemma
- Sea 
+Sea 
 \begin_inset Formula $S\subseteq\omega\times\Sigma^{\ast}$
 \end_inset
 
@@ -8079,6 +8079,7 @@ El concepto de conjunto rectangular es muy importante en nuestro enfoque.
  es rectangular si y solo si se cumple la siguiente propiedad:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -8100,6 +8101,7 @@ Si
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -8109,7 +8111,7 @@ Si
 \end_layout
 
 \begin_layout Proof
- Ejercicio.
+Ejercicio.
  
 \end_layout
 
@@ -9816,13 +9818,6 @@ Representaremos a los numeros de
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\bigskip$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Formula $\varepsilon,1,2,3,4,5,6,7,8,9,d,$
 \end_inset
 
@@ -11146,7 +11141,7 @@ Para probar (3) es muy util el siguiente resultado obvio
 \end_layout
 
 \begin_layout Lemma
- Sea 
+Sea 
 \begin_inset Formula $\sigma\in\widetilde{Num}$
 \end_inset
 
@@ -11562,7 +11557,7 @@ Es claro que entonces
 \end_layout
 
 \begin_layout Lemma
- Sea 
+Sea 
 \begin_inset Formula $\Sigma$
 \end_inset
 
@@ -11768,13 +11763,14 @@ La funcion
 \end_layout
 
 \begin_layout Proof
- Primero probaremos por induccion en 
+Primero probaremos por induccion en 
 \begin_inset Formula $x$
 \end_inset
 
  que
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -11978,6 +11974,7 @@ Pero (b) es una concecuencia inmediata de (a).
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset VSpace bigskip
 \end_inset
@@ -12019,7 +12016,7 @@ De los desarrollos hechos se desprende el interesante resultado.
 \end_layout
 
 \begin_layout Lemma
- Sea 
+Sea 
 \begin_inset Formula $n\geq1$
 \end_inset
 
@@ -12387,7 +12384,7 @@ o de posets en los capitulos de logica.
 \end_layout
 
 \begin_layout Lemma
- Si 
+Si 
 \begin_inset Formula $S\subseteq\Sigma^{\ast}$
 \end_inset
 
@@ -12659,7 +12656,6 @@ os el siguiente lema el cual aceptaremos sin demostracion.
 \end_layout
 
 \begin_layout Lemma
- 
 \begin_inset CommandInset label
 LatexCommand label
 name "primos"
@@ -12702,7 +12698,7 @@ Si
 \end_layout
 
 \begin_layout Theorem
- Para cada 
+Para cada 
 \begin_inset Formula $x\in\mathbf{N}$
 \end_inset
 
@@ -12735,7 +12731,7 @@ x=\underset{i=1}{\overset{\infty}{\Pi}}pr(i)^{s_{i}}
 \end_layout
 
 \begin_layout Proof
- Primero probaremos la existencia por induccion en 
+Primero probaremos la existencia por induccion en 
 \begin_inset Formula $x$
 \end_inset
 
@@ -12833,6 +12829,7 @@ x=\underset{i=1}{\overset{\infty}{\Pi}}pr(i)^{s_{i}}
  lo cual concluye la prueba de la existencia.
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 Veamos ahora la unicidad.
  Suponganos que las infinituplas 
@@ -12878,6 +12875,7 @@ y ademas
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset VSpace bigskip
 \end_inset
@@ -13090,7 +13088,7 @@ son biyecciones una inversa de la otra.
 \end_layout
 
 \begin_layout Proof
- Llamemos 
+Llamemos 
 \begin_inset Formula $f$
 \end_inset
 
@@ -13227,6 +13225,7 @@ Se tienen las siguientes propiedades basicas
 :
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Formula $Lt(x)=0$
 \end_inset
@@ -13245,6 +13244,7 @@ Se tienen las siguientes propiedades basicas
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -14770,7 +14770,6 @@ f_{k}(e) &  & \text{si }e\in D_{f_{k}}
 \end_layout
 
 \begin_layout Lemma
- 
 \begin_inset CommandInset label
 LatexCommand label
 name "boolean op de predicados e.c."
@@ -14844,7 +14843,7 @@ s el siguiente lema.
 \end_layout
 
 \begin_layout Lemma
- Supongamos que 
+Supongamos que 
 \begin_inset Formula $f,f_{1},...,f_{r}$
 \end_inset
 
@@ -14873,6 +14872,7 @@ s el siguiente lema.
  tales que
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -14982,6 +14982,7 @@ f\circ[f_{1},...,f_{n+m}](\vec{x},\vec{\alpha}) & =f(f_{1}(\vec{x},\vec{\alpha})
 
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -14991,7 +14992,7 @@ f\circ[f_{1},...,f_{n+m}](\vec{x},\vec{\alpha}) & =f(f_{1}(\vec{x},\vec{\alpha})
 \end_layout
 
 \begin_layout Proof
- Notese que 
+Notese que 
 \begin_inset Formula $f\neq\emptyset$
 \end_inset
 
@@ -15032,9 +15033,10 @@ f\circ[f_{1},...,f_{n+m}](\vec{x},\vec{\alpha}) & =f(f_{1}(\vec{x},\vec{\alpha})
 , tenemos que
 \end_layout
 
-\begin_layout Proof
+\begin_deeper
+\begin_layout Enumerate
 \begin_inset Argument item:1
-status collapsed
+status open
 
 \begin_layout Plain Layout
 -
@@ -15049,9 +15051,9 @@ status collapsed
 
 \end_layout
 
-\begin_layout Proof
+\begin_layout Enumerate
 \begin_inset Argument item:1
-status collapsed
+status open
 
 \begin_layout Plain Layout
 -
@@ -15070,7 +15072,7 @@ status collapsed
 
 \end_layout
 
-\begin_layout Proof
+\begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
 
@@ -15091,6 +15093,7 @@ status collapsed
  
 \end_layout
 
+\end_deeper
 \begin_layout Proof
 Ya que 
 \begin_inset Formula $[f_{1},...,f_{r}]\neq\emptyset$
@@ -15186,7 +15189,7 @@ Ahora si podemos probar facilmente que se preserva la computabilidad efectiva
 \end_layout
 
 \begin_layout Proof
- Si 
+Si 
 \begin_inset Formula $f\circ[f_{1},...,f_{r}]=\emptyset$
 \end_inset
 
@@ -15211,6 +15214,7 @@ Ahora si podemos probar facilmente que se preserva la computabilidad efectiva
  tales que
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -15318,6 +15322,7 @@ Sean
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset VSpace bigskip
 \end_inset
@@ -15893,7 +15898,7 @@ El siguiente lema caracteriza cuando un conjunto rectangular es
 \end_layout
 
 \begin_layout Proof
- Notese que si 
+Notese que si 
 \begin_inset Formula $n=m=0$
 \end_inset
 
@@ -15919,6 +15924,7 @@ El siguiente lema caracteriza cuando un conjunto rectangular es
  La prueba general es completamente analoga.
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 (
 \begin_inset Formula $\Rightarrow$
@@ -16007,6 +16013,7 @@ Por lo tanto, es facil usando un procedimiento efectivo que compute a
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset VSpace bigskip
 \end_inset
@@ -16141,6 +16148,7 @@ El siguiente resultado nos permite entender mejor la idea subyacente a esta
  tal que
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -16233,6 +16241,7 @@ El conjunto de datos de salida de
  como dato de entrada) 
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -16254,6 +16263,7 @@ El conjunto de datos de salida de
 .
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 (
 \begin_inset Formula $\Rightarrow$
@@ -16541,6 +16551,7 @@ Etapa 2: Dar como salida la coordenada
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset VSpace bigskip
 \end_inset
@@ -16963,6 +16974,7 @@ Dar como dato de salida la 5-upla
 :
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -17148,6 +17160,7 @@ Dejamos al lector la prueba de que este procedimiento enumera a
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset VSpace bigskip
 \end_inset
@@ -17278,6 +17291,7 @@ Dejamos al lector la prueba del siguiente resultado.
 :
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 Etapa 1
 \end_layout
@@ -17346,6 +17360,7 @@ Si
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset VSpace bigskip
 \end_inset
@@ -17389,6 +17404,7 @@ noprefix "false"
  Son equivalentes
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -17435,6 +17451,7 @@ status collapsed
 -efectivamente enumerables 
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -17444,7 +17461,7 @@ status collapsed
 \end_layout
 
 \begin_layout Proof
- (a)
+(a)
 \begin_inset Formula $\Rightarrow$
 \end_inset
 
@@ -17482,6 +17499,7 @@ status collapsed
 -efectivamente enumerable.
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 (b)
 \begin_inset Formula $\Rightarrow$
@@ -17625,6 +17643,7 @@ Si
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset VSpace bigskip
 \end_inset
@@ -17704,6 +17723,7 @@ Dado
 , son equivalentes
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
 status collapsed
@@ -17780,6 +17800,7 @@ status collapsed
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 
 \end_layout
@@ -17801,6 +17822,7 @@ status collapsed
 .
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 (1)
 \begin_inset Formula $\Rightarrow$
@@ -17998,6 +18020,7 @@ Para cada
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset VSpace bigskip
 \end_inset
