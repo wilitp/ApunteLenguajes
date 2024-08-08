@@ -2179,7 +2179,6 @@ inversa de
 \end_layout
 
 \begin_layout Lemma
- 
 \begin_inset CommandInset label
 LatexCommand label
 name "mutuamente inversas"
@@ -4409,7 +4408,6 @@ Algunas propiedades basicas son:
 \end_layout
 
 \begin_layout Lemma
- 
 \begin_inset CommandInset label
 LatexCommand label
 name "basicas a/R"
@@ -4432,9 +4430,10 @@ Sea
 .
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
-status collapsed
+status open
 
 \begin_layout Plain Layout
 (1)
@@ -4451,7 +4450,7 @@ status collapsed
 
 \begin_layout Enumerate
 \begin_inset Argument item:1
-status collapsed
+status open
 
 \begin_layout Plain Layout
 (2)
@@ -4481,7 +4480,7 @@ status collapsed
 
 \begin_layout Enumerate
 \begin_inset Argument item:1
-status collapsed
+status open
 
 \begin_layout Plain Layout
 (3)
@@ -4500,19 +4499,12 @@ status collapsed
  
 \end_layout
 
-\begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
-
+\end_deeper
+\begin_layout Proof
+(1) es muy facil.
 \end_layout
 
 \begin_layout Proof
- (1) es muy facil.
-\end_layout
-
-\begin_layout Standard
 (2).
  Supongamos 
 \begin_inset Formula $aRb$
@@ -4580,7 +4572,7 @@ status collapsed
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 Reciprocamente, si 
 \begin_inset Formula $a/R=b/R$
 \end_inset
@@ -4601,8 +4593,8 @@ Reciprocamente, si
 .
 \end_layout
 
-\begin_layout Standard
-o=(3).
+\begin_layout Proof
+(3).
  Supongamos que 
 \begin_inset Formula $a/R\cap b/R$
 \end_inset
@@ -4622,7 +4614,6 @@ o=(3).
 \end_inset
 
 .
- 
 \end_layout
 
 \begin_layout Standard
@@ -4780,7 +4771,7 @@ respecto de
 \end_layout
 
 \begin_layout Lemma
- Sea 
+Sea 
 \begin_inset Formula $R$
 \end_inset
 
@@ -4947,7 +4938,7 @@ Sin envargo hay muchos casos en los cuales este tipo de definiciones son
 \end_layout
 
 \begin_layout Lemma
- Si 
+Si 
 \begin_inset Formula $f:A\rightarrow B$
 \end_inset
 
@@ -4968,7 +4959,7 @@ Sin envargo hay muchos casos en los cuales este tipo de definiciones son
 \end_layout
 
 \begin_layout Proof
- Que la ecuacion 
+Que la ecuacion 
 \begin_inset Formula $\bar{f}(a/\ker f)=f(a)$
 \end_inset
 
@@ -5247,7 +5238,7 @@ R_{\mathcal{P}}=\{(a,b)\in A^{2}:a,b\in S\text{, para algun }S\in\mathcal{P}\}
 \end_layout
 
 \begin_layout Lemma
- Sea 
+Sea 
 \begin_inset Formula $A$
 \end_inset
 
@@ -5255,9 +5246,10 @@ R_{\mathcal{P}}=\{(a,b)\in A^{2}:a,b\in S\text{, para algun }S\in\mathcal{P}\}
  Entonces:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
-status collapsed
+status open
 
 \begin_layout Plain Layout
 (1)
@@ -5316,16 +5308,13 @@ Sea
  
 \end_layout
 
-\begin_layout Standard
-
-\end_layout
-
+\end_deeper
 \begin_layout Standard
 
 \end_layout
 
 \begin_layout Proof
- (1).
+(1).
  Es facil ver que 
 \begin_inset Formula $R_{\mathcal{P}}$
 \end_inset
@@ -5378,7 +5367,7 @@ Sea
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 (2).
  Sigue facilmente del Lema 
 \begin_inset CommandInset ref
@@ -5419,7 +5408,7 @@ El siguiente teorema da una correspondencia natural entre relaciones de
 \end_layout
 
 \begin_layout Theorem
- Sea 
+Sea 
 \begin_inset Formula $A$
 \end_inset
 
@@ -5456,7 +5445,7 @@ son biyecciones una inversa de la otra.
 \end_layout
 
 \begin_layout Proof
- Notese que por el Lema 
+Notese que por el Lema 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "mutuamente inversas"
@@ -5469,9 +5458,10 @@ noprefix "false"
  basta con probar:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 \begin_inset Argument item:1
-status collapsed
+status open
 
 \begin_layout Plain Layout
 (1)
@@ -5639,6 +5629,7 @@ Prueba de (2).
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \begin_inset VSpace bigskip
 \end_inset
