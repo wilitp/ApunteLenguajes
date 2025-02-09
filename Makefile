@@ -14,7 +14,7 @@ all:
 	# identificar usor de custom items y cambiarlos por texto(pandoc no se los banca y simplemente los ignora)
 	gawk '{ print gensub(/\\item\s*\[([^\]]*)\]/, "\\\\item adhocprefix\\1adhocsufix", "g"); }' $(TEX_FILE) > $(FIXUP_FILE)
 	# pasar del latex corregido a html
-	pandoc -t chunkedhtml $(FIXUP_FILE) -o $(HTML_DIR) --mathjax=https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML --split-level=2 --markdown-headings=setext --number-sections --include-in-header=$(CUSTOM_HTML_FILE) --toc=true
+	pandoc -t chunkedhtml $(FIXUP_FILE) -o $(HTML_DIR) --mathjax=https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML --split-level=2 --markdown-headings=setext --number-sections --include-in-header=$(CUSTOM_HTML_FILE) --toc --resource-path=resources
 	# mover archivo de javascript custom al directorio del apunte
 	cp $(JS_FILE) $(HTML_DIR)
 	
